@@ -1,0 +1,122 @@
+.word-emphasize:before {
+  font-family: FontAwesome;
+  font-size: 39px;
+  float: left;
+  padding-right: 5px;
+  font-weight: normal;
+}
+.word-emphasize {
+  color: #064474;
+  font-size: 19px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 10px;
+}
+#icn-achieve:before {
+  content: "\f0c1";
+}
+#icn-express:before {
+  content: "\f1ae";
+}
+#icn-create:before {
+  content: "\f185";
+}
+#icn-evolve:before {
+  content: "\f135";
+}
+#icn-center:before {
+  content: "\f19c";
+}
+#icn-sales:before {
+  content: "\f07a";
+}
+#icn-tuition:before {
+  content: "\f02d";
+}
+#icn-tourism:before {
+  content: "\f1d8";
+}
+#icn-networks:before {
+  content: "\f0e6";
+}
+#icn-vacancies:before {
+  content: "\f0c0";
+}
+#index-page .seperate_row {
+  font-size: 17px;
+}
+.index-row {
+  display: inline-block;
+}
+.index-card {
+  color: #005ba1;
+  padding: 10px;
+  margin: 5px;
+  line-height: 18px;
+  display: inline-block;
+}
+.index-card .icon {
+  color: #0d83dd;
+  float: left;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.card-text {
+  margin-left: 60px;
+}
+.bar-left-text {
+  width: 100%;
+  padding: 10px 0px;
+  color: #064474;
+  font-size: 22px;
+  box-sizing: border-box;
+}
+.bar-left-text:before {
+  font-family: FontAwesome;
+  content: "\f10d";
+}
+.bar-left-text:after {
+  font-family: FontAwesome;
+  content: "\f10e";
+}
+.bar-text-btn {
+  text-align: center;
+  margin: 10px;
+}
+.bar-button {
+  text-align: center;
+  display: table;
+  padding: 10px;
+  color: #fff;
+  background-color: #0d83dd;
+}
+.bar-text-btn .bar-button {
+  margin: 0 auto;
+}
+#index-team h1 {
+  font-size: 41px;
+  font-weight: bold;
+  color: #064474;
+  text-align: center;
+  text-transform: capitalize;
+}
+.team-container {
+  display: table;
+  margin: 0 auto;
+}
+.team-name {
+  font-size: 18px;
+  color: #064474;
+}
+.team-position {
+  color: #005ba1;
+  font-size: 13px;
+}
+.team-container .bar-button {
+  float: right;
+  margin-top: 10px;
+}

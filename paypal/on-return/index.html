@@ -1,0 +1,13 @@
+
+<!-- Use result of DoEC to send the buyer to the correct page -->
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script>
+if (window != top) {
+top.location.replace(top.location+'?action=reset_minicart');
+}
+</script>
+</head>
+</html>

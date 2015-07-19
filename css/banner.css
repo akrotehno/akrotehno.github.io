@@ -1,0 +1,139 @@
+#lightSlider {
+  opacity: 0;
+}
+.banner_list {
+  right: 5px;
+  bottom: 0px;
+  position: absolute;
+}
+.lSSlideOuter {
+  padding: 10px;
+  background-color: #c5d5e0 !important;
+}
+.lSSlideOuter .lSPager.lSpg > li a {
+  background-color: #202325 !important;
+}
+.lSSlideOuter .lSPager.lSpg > li.active a {
+  background-color: #0d83dd !important;
+}
+.banner_parent {
+  background: #0d83dd;
+  padding: 20px 10px;
+}
+.banner_list li {
+  display: inline-block;
+}
+.banner_thumb {
+  background-color: #fff;
+  width: 72px;
+  height: 72px;
+  padding-left: 2px;
+  padding-top: 2px;
+  display: table;
+}
+.banner_content {
+  width: inherit;
+  position: absolute;
+  text-align: center;
+}
+.banner_details {
+  width: inherit;
+  position: relative;
+  margin: 20px auto;
+  word-break: break-word;
+  width: 80%;
+  text-align: -webkit-center;
+  line-height: 44px;
+  font-weight: 600;
+  font-size: 37px;
+  padding: 7px;
+}
+.banner_details h3 {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+.banner_bg {
+  width: 100%;
+  height: auto;
+}
+.ribbon_cont {
+  position: absolute;
+  width: inherit;
+  bottom: 4px;
+}
+.banner_ribbon {
+  width: 100%;
+  position: relative;
+}
+.banner_img {
+  height: 70px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+}
+.banner_ctg {
+  text-align: right;
+  padding: 11px 0px;
+}
+.banner_ctg span {
+  background: #005ba1;
+  padding: 5px;
+}
+.banner_more {
+  font-size: 30px;
+  top: 11px;
+  color: #0085be;
+}
+.banner_more p {
+  color: #737373;
+  font-size: 15px;
+}
+.lSSlideOuter .lSPager.lSpg {
+  position: relative;
+  bottom: 3px;
+  color: #e4ecf2;
+}
+.banner_cont {
+  margin: 0px auto 0px auto;
+  width: 100%;
+  max-width: 900px;
+}
+.banner_quote_by {
+  font-size: 26px;
+}
+@media only screen and (max-width: 843px) {
+  .banner_details {
+    font-size: 33px;
+    width: 90%;
+  }
+  .banner_quote_by {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 713px) {
+  .banner_details {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .banner_quote_by {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .banner_thumb {
+    width: 54px;
+    height: 54px;
+  }
+  .banner_img {
+    height: 52px;
+    background-size: 52px;
+  }
+  .banner_details {
+    margin: 3px auto;
+    width: 95%;
+    line-height: 25px;
+    font-size: 20px;
+  }
+  .banner_quote_by {
+    font-size: 14px;
+  }
+}
