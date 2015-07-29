@@ -125,9 +125,11 @@
     });
 
     if ($.fancybox) {
-        $('.fancybox').fancybox({
+      var jElm = $('.fancybox');
+      var hideArrows = jElm.is("[hideArrows]");
+        jElm.fancybox({
             openEffect: 'none',
-            padding: 2,
+            padding: 7,
             margin: 4,
             slideWidth: 230,
             minWidth: 350,
@@ -138,7 +140,7 @@
             nextEffect: 'none',
             wrapCSS: 'productviewer',
             closeBtn: false,
-            arrows: true,
+            arrows: !hideArrows,
             nextClick: true,
             helpers: {
                 title: {
@@ -151,10 +153,8 @@
                 }
             },
             afterLoad: function() {
-
-                this.title = '<a target="_blank" href="' +
-                    this.href.replace("press_web", "download").replace("_web.jpg", ".jpg.zip") +
-                    '" download>Download</a> ';
+              //console.log(this);
+                this.title = '';
 
             }
         });

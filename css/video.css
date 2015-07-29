@@ -1,0 +1,36 @@
+.video_entry {
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  max-width: 480px;
+}
+.video_entry>div {
+  padding: 10px;
+}
+.video_entry>div>div {
+  padding: 10px;
+  background-color: #0d83dd;
+}
+.video_img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 260px;
+}
+.video_duration {
+  float: right;
+  bottom: 31px;
+  background-color: #0d83dd;
+  padding: 5px;
+  right: 5px;
+  position: relative;
+}
+.video_caption {
+  padding-top: 10px;
+}
+.video_title {
+  color: #fff;
+}
+.video_by {
+  color: #afdcff;
+}

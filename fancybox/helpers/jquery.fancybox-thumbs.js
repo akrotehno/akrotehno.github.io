@@ -35,6 +35,10 @@
 					href = item.href;
 				}
 
+				if (!href){
+					href =  $(item.element).attr('thumb');
+				}
+
 				return href;
 			}
 		},

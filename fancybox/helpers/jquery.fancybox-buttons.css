@@ -14,15 +14,13 @@
 }
 
 #fancybox-buttons ul {
-    display: block;
-    width: 166px;
-    height: 30px;
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-    border: solid 1px rgb(168, 168, 168);
-    background: rgb(55, 55, 55);
-    border-radius: 10px;
+  display: block;
+  width: 179px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  background: rgb(228, 236, 242);
 }
 
 #fancybox-buttons ul li {
@@ -32,53 +30,48 @@
 }
 
 #fancybox-buttons a {
-    display: block;
-    width: 30px;
-    height: 30px;
-    text-indent: -9999px;
-    background-color: transparent;
-    background-image: url('fancybox_buttons.png');
-    background-repeat: no-repeat;
+  display: block;
+    width: 35px;
+    height: 35px;
+    color: rgb(13, 131, 221);
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'FontAwesome';
     outline: none;
-    opacity: 0.8;
 }
 
 #fancybox-buttons a:hover {
     opacity: 1;
 }
 
-#fancybox-buttons a.btnPrev {
-    background-position: 5px 0;
+#fancybox-buttons a.btnPrev:before {
+    content:'\f04a';
 }
 
-#fancybox-buttons a.btnNext {
-    background-position: -33px 0;
-    border-right: 1px solid #3e3e3e;
+#fancybox-buttons a.btnNext:before {
+    content:'\f04e';
 }
 
-#fancybox-buttons a.btnPlay {
-    background-position: 0 -30px;
+#fancybox-buttons a.btnPlay:before {
+    content:'\f04b';
 }
 
-#fancybox-buttons a.btnPlayOn {
-    background-position: -30px -30px;
+#fancybox-buttons a.btnPlayOn:before {
+    content:'\f04c';
 }
 
-#fancybox-buttons a.btnToggle {
-    background-position: 3px -60px;
-    border-left: 1px solid #111;
-    border-right: 1px solid #3e3e3e;
-    width: 35px
+#fancybox-buttons a.btnToggle:before {
+  content: '\f0b2';
 }
 
-#fancybox-buttons a.btnToggleOn {
-    background-position: -27px -60px;
+#fancybox-buttons a.btnToggleOn:before {
+  content: '\f0b2';
 }
 
-#fancybox-buttons a.btnClose {
-    border-left: 1px solid #111;
-    width: 35px;
-    background-position: -56px 0px;
+#fancybox-buttons a.btnClose:before {
+  font-size: 27px;
+  content: '\f00d';
 }
 
 #fancybox-buttons a.btnDisabled {
