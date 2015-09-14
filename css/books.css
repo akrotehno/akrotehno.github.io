@@ -1,0 +1,85 @@
+#books #intro {
+  background-color: #2283dd;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 5px;
+}
+#books #features .title {
+  font-size: 27px;
+  margin-bottom: 7px;
+  font-weight: bold;
+  color: #005ba1;
+}
+#books .section-text {
+  line-height: 19px;
+}
+#books #front {
+  padding: 10px;
+}
+#books #front img {
+  width: 100%;
+}
+#books .card .title {
+  color: #fff;
+  font-size: 25px;
+  line-height: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 10px;
+}
+#books .text {
+  margin-left: 60px;
+}
+#books #cards {
+  background-color: #cfe1ee;
+}
+#books .card_cont {
+  color: #e4ecf2;
+  line-height: 18px;
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#books .card {
+  background-color: #2283dd;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  height: 100%;
+  max-width: 400px;
+}
+#books .btn-fix {
+  height: 40px;
+  display: block;
+}
+#books .btn {
+  color: #2283dd;
+  background-color: #fff;
+  padding: 9px;
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+#books .icon {
+  font-family: FontAwesome;
+  font-size: 40px;
+  line-height: 40px;
+  float: left;
+  width: 60px;
+  text-align: center;
+  font-weight: normal;
+}
+#books #getstarted .icon:before {
+  content: "\f135";
+}
+#books #support .icon:before {
+  content: "\f1cd";
+}

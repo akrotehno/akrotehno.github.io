@@ -272,12 +272,11 @@ body {
 .main-body-header {
   height: 25px;
   color: #e4ecf2;
-  background: #041259;
+  background: #006fc3;
   position: relative;
   padding: 18px 12px 17px;
   font-size: 16px;
   font-weight: 600;
-  text-transform: capitalize;
   line-height: 24px;
 }
 .main-body-header h1.header {
@@ -351,7 +350,7 @@ body {
   transition: 0.2s ease-in;
 }
 .nav-container {
-  background: #0d83dd;
+  background: #2283dd;
   z-index: 1;
   -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.05), 0 -1px 0 rgba(0,0,0,0.2), inset 1px 0 0 rgba(0,0,0,0.2), inset -1px 0 0 rgba(0,0,0,0.2);
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.05), 0 -1px 0 rgba(0,0,0,0.2), inset 1px 0 0 rgba(0,0,0,0.2), inset -1px 0 0 rgba(0,0,0,0.2);
@@ -437,9 +436,14 @@ body {
   padding: 10px;
 }
 .nav-container .nav-container-inner .main-nav-list-item .main-nav-list-child li {
+  text-align: left;
+  padding: 4px;
   background-color: transparent;
   min-width: 100%;
   margin: 0px;
+}
+.nav-container .nav-container-inner .main-nav-list-item .main-nav-list-child li:hover {
+  background: #cfe1ee;
 }
 .nav-container .nav-container-inner .main-nav-list-item .main-nav-list-child li a {
   padding: 5px;
@@ -447,7 +451,7 @@ body {
 .nav-container .nav-container-inner .main-nav-list-item .main-nav-list-child li a.main-nav-list-parent {
   padding: 2px;
   color: #e4ecf2;
-  background-color: #0d83dd;
+  background-color: #2283dd;
 }
 .nav-container .nav-container-inner .main-nav-list-item .main-nav-list-child li,
 .nav-container .nav-container-inner .main-nav-list-item .main-nav-list-child li a {
@@ -509,10 +513,14 @@ body {
   display: inline-block;
 }
 .article-section.a {
-  background-color: #0d83dd;
+  background-color: #2283dd;
+  color: #fff;
 }
 .article-section.b {
-  background-color: #c4d5e2;
+  background-color: #cfe1ee;
+}
+.article-section.c {
+  background-color: #e4ecf2;
 }
 .article-inner {
   overflow: hidden;
@@ -1648,7 +1656,7 @@ body {
   font-family: FontAwesome;
 }
 .link_active {
-  background: #0d83dd !important;
+  background: #2283dd !important;
   color: #fff !important;
 }
 .link_inactive {
@@ -1656,7 +1664,7 @@ body {
   margin: 5px 0px;
 }
 .link_inactive:hover {
-  outline: solid 1px #0d83dd;
+  outline: solid 1px #2283dd;
 }
 .seperate_row {
   font-size: 27px;
@@ -1749,6 +1757,24 @@ body {
 .section-text p {
   padding: 5px 0px 5px 20px;
 }
+.button {
+  text-align: center;
+  display: table;
+  padding: 10px;
+  color: #fff;
+  background-color: #2283dd;
+}
+.announcement {
+  color: #fff;
+  text-shadow: 0px 1px 1px #054500;
+  background: #10e500;
+  text-align: center;
+  position: relative;
+  padding: 3px 5px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 17px;
+}
 /*
  * Bootstrap v3.3.4 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -1785,10 +1811,6 @@ body {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
 }
 .col-xs-1,
 .col-sm-1,
@@ -1853,7 +1875,7 @@ body {
 .col-xs-10,
 .col-xs-11,
 .col-xs-12 {
-  float: left;
+  display: table-cell;
 }
 .col-xs-12 {
   width: 100%;
@@ -2021,7 +2043,7 @@ body {
   .col-sm-10,
   .col-sm-11,
   .col-sm-12 {
-    float: left;
+    display: table-cell;
   }
   .col-sm-12 {
     width: 100%;
@@ -2190,7 +2212,7 @@ body {
   .col-md-10,
   .col-md-11,
   .col-md-12 {
-    float: left;
+    display: table-cell;
   }
   .col-md-12 {
     width: 100%;
@@ -2359,7 +2381,7 @@ body {
   .col-lg-10,
   .col-lg-11,
   .col-lg-12 {
-    float: left;
+    display: table-cell;
   }
   .col-lg-12 {
     width: 100%;
@@ -2520,9 +2542,7 @@ body {
 .container:before,
 .container:after,
 .container-fluid:before,
-.container-fluid:after,
-.row:before,
-.row:after {
+.container-fluid:after {
   content: " ";
   display: table;
 }
@@ -2564,6 +2584,14 @@ body {
 }
 .affix {
   position: fixed;
+}
+[class*="col-"] {
+  padding: 0;
+  vertical-align: top;
+}
+.row {
+  width: 100%;
+  display: table;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   .article-entry .img-wrap:before {

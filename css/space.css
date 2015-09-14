@@ -1,0 +1,84 @@
+#intro {
+  line-height: 20px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+#intro p {
+  margin-bottom: 10px;
+}
+#intro .title {
+  font-size: 37px;
+  font-weight: bold;
+  margin: 18px 0px;
+  color: #2283dd;
+}
+#intro .title:first-child {
+  margin-top: 0px;
+}
+#visit-info {
+  text-align: center;
+  padding: 10px 10%;
+  line-height: 23px;
+  font-size: 17px;
+}
+#gallery {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+#gallery img {
+  width: 100%;
+}
+#cards {
+  text-align: center;
+}
+#cards .title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#cards .card_cont {
+  padding: 10px 0;
+}
+#cards .card {
+  line-height: 20px;
+  background-color: #2283dd;
+  display: inline-block;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  color: #fff;
+}
+#directions .title {
+  color: #2283dd;
+  font-weight: bold;
+  font-size: 28px;
+  margin: 8px 0;
+}
+#directions .content {
+  padding: 0 10px;
+}
+#directions .subtitle {
+  color: #2283dd;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 5px 0;
+}
+#directions .button {
+  margin-bottom: 10px;
+}
+#directions {
+  line-height: 22px;
+}
+#map {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+#map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}

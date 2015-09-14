@@ -9,7 +9,7 @@
 }
 .video_entry>div>div {
   padding: 10px;
-  background-color: #0d83dd;
+  background-color: #2283dd;
 }
 .video_img {
   background-position: center center;
@@ -20,10 +20,17 @@
 .video_duration {
   float: right;
   bottom: 31px;
-  background-color: #0d83dd;
+  background-color: #2283dd;
   padding: 5px;
   right: 5px;
   position: relative;
+}
+.video_subtitle {
+  color: #2283dd;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0px;
 }
 .video_caption {
   padding-top: 10px;

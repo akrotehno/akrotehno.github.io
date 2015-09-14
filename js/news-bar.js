@@ -4,7 +4,6 @@
     var container = $(baseClass);
 
     var announcements = JSON.parse(jsonNews);
-    console.log(announcements);
 
     var active = $(baseClass+' .active');
     var down = $(baseClass+' .down');

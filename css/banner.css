@@ -8,16 +8,16 @@
 }
 .lSSlideOuter {
   padding: 10px;
-  background-color: #c5d5e0 !important;
+  background-color: #cfe1ee !important;
 }
 .lSSlideOuter .lSPager.lSpg > li a {
   background-color: #202325 !important;
 }
 .lSSlideOuter .lSPager.lSpg > li.active a {
-  background-color: #0d83dd !important;
+  background-color: #2283dd !important;
 }
 .banner_parent {
-  background: #0d83dd;
+  background: #2283dd;
   padding: 20px 10px;
 }
 .banner_list li {

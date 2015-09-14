@@ -58,7 +58,7 @@
   display: inline-block;
 }
 .index-card .icon {
-  color: #0d83dd;
+  color: #2283dd;
   float: left;
   font-size: 50px;
   width: 50px;
@@ -87,22 +87,18 @@
   text-align: center;
   margin: 10px;
 }
-.bar-button {
-  text-align: center;
-  display: table;
-  padding: 10px;
-  color: #fff;
-  background-color: #0d83dd;
-}
-.bar-text-btn .bar-button {
+.bar-text-btn .button {
   margin: 0 auto;
 }
 #index-team h1 {
   font-size: 41px;
   font-weight: bold;
-  color: #064474;
+  color: #2283dd;
   text-align: center;
   text-transform: capitalize;
+}
+.card-links {
+  margin-top: 10px;
 }
 .team-container {
   display: table;
@@ -116,7 +112,7 @@
   color: #005ba1;
   font-size: 13px;
 }
-.team-container .bar-button {
+.team-container .button {
   float: right;
   margin-top: 10px;
 }
