@@ -1,6 +1,24 @@
 #team-member {
   overflow: hidden;
 }
+.lSAction > a {
+  background-color: #cfe1ee;
+  color: #2283dd;
+}
+.lSSlideOuter {
+  padding: 10px;
+  background-color: #cfe1ee;
+  display: inline-block;
+  max-width: 100%;
+  margin: 10px 0px !important;
+  box-sizing: border-box;
+}
+.lSSlideOuter .lSPager.lSpg > li a {
+  background-color: #202325;
+}
+.lSSlideOuter .lSPager.lSpg > li.active a {
+  background-color: #2283dd;
+}
 #team-profile {
   padding: 10px;
   min-height: 200px;
@@ -11,6 +29,9 @@
 }
 #team-timeline {
   margin-left: 210px;
+}
+.intro-txt {
+  margin: 10px 0px;
 }
 .soft-black {
   color: #5f5f5f;
@@ -30,7 +51,19 @@
   font-size: 28px;
   color: #005ba1;
 }
-#team-member .date {
+.no-line {
+  width: 30px;
+  margin: 0px auto;
+  border-bottom: 1px solid #e4ecf2;
+}
+.half-line {
+  line-height: 25px;
+  font-size: 15px;
+}
+#team-member .symbol {
+  font-size: 17px;
+}
+#team-member .symbol.icon {
   font-family: FontAwesome;
   font-size: 34px;
 }

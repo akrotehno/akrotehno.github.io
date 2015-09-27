@@ -7,6 +7,7 @@
   float: right;
   padding: 10px;
   display: inline-block;
+  color: #006fc3;
 }
 #team-title {
   font-size: 42px;
@@ -17,9 +18,6 @@
   font-size: 19px;
   margin-bottom: 15px;
 }
-#team-header {
-  color: #005ba1;
-}
 #team-info,
 #team-header,
 #team-footer p:first-child {
@@ -27,7 +25,6 @@
 }
 #team-info p:first-child {
   font-size: 17px;
-  color: #005ba1;
 }
 #team-info p {
   line-height: 23px;

@@ -43,7 +43,7 @@
 }
 #team-name {
   font-size: 24px;
-  color: #005ba1;
+  color: #006fc3;
   font-weight: bold;
 }
 .vertical-timeline-container {
@@ -85,7 +85,7 @@
 .vertical-timeline-container .post .inner {
   position: relative;
   padding: 11px;
-  background-color: #005ba1;
+  background-color: #006fc3;
   min-height: 37px;
   word-wrap: break-word;
 }
@@ -173,12 +173,12 @@
 .vertical-timeline-container .post a.more:hover {
   background-color: #fafafa;
 }
-.vertical-timeline-container .post .date {
+.vertical-timeline-container .post .symbol {
   color: #e4ecf2;
   left: -62px;
   font-size: 12px;
   text-align: center;
-  background-color: #005ba1;
+  background-color: #006fc3;
   position: absolute;
   top: 0px;
   display: block;

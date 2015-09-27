@@ -5,6 +5,13 @@
   padding-right: 5px;
   font-weight: normal;
 }
+.banner_bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 415px;
+}
 .word-emphasize {
   color: #064474;
   font-size: 19px;
@@ -51,7 +58,7 @@
   display: inline-block;
 }
 .index-card {
-  color: #005ba1;
+  color: #006fc3;
   padding: 10px;
   margin: 5px;
   line-height: 18px;
@@ -109,7 +116,7 @@
   color: #064474;
 }
 .team-position {
-  color: #005ba1;
+  color: #006fc3;
   font-size: 13px;
 }
 .team-container .button {

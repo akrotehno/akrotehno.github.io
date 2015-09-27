@@ -1,0 +1,12 @@
+.article-section .txt {
+  white-space: pre-line;
+  font-size: 16px;
+}
+.article-section h1 {
+  margin: 10px 0px;
+  font-size: 30px;
+  color: #2283dd;
+}
+.article-section.a h1 {
+  color: #e4ecf2;
+}
