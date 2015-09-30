@@ -1,3 +1,15 @@
+#headlines {
+  font-size: 19px;
+  font-color: #e4ecf2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#headlines .headline {
+  margin: 0px 5px;
+  padding: 5px;
+  display: inline-block;
+  outline: solid 1px #e4ecf2;
+}
 .word-emphasize:before {
   font-family: FontAwesome;
   font-size: 39px;
@@ -51,9 +63,6 @@
 #icn-vacancies:before {
   content: "\f0c0";
 }
-#index-page .seperate_row {
-  font-size: 17px;
-}
 .index-row {
   display: inline-block;
 }
@@ -97,29 +106,48 @@
 .bar-text-btn .button {
   margin: 0 auto;
 }
-#index-team h1 {
-  font-size: 41px;
+.seperate_row {
+  font-size: 37px;
   font-weight: bold;
   color: #2283dd;
-  text-align: center;
-  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+#team .seperate_row.team-sub {
+  font-size: 27px;
+  margin-top: 10px;
 }
 .card-links {
   margin-top: 10px;
 }
+.team-pic {
+  float: left;
+}
+img.team-pic {
+  width: 120px;
+  height: 120px;
+}
+.team-row {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.team-cont {
+  display: inline-block;
+}
 .team-container {
+  color: #fff;
   display: table;
   margin: 0 auto;
+  background: #2283dd;
+  padding: 10px;
+}
+.team-details {
+  float: right;
+  margin-left: 10px;
 }
 .team-name {
   font-size: 18px;
-  color: #064474;
 }
 .team-position {
-  color: #006fc3;
+  color: #e4ecf2;
   font-size: 13px;
-}
-.team-container .button {
-  float: right;
-  margin-top: 10px;
 }

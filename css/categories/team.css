@@ -1,0 +1,21 @@
+.team-pic {
+  float: left;
+}
+.team-container {
+  display: inline-block;
+}
+img.team-pic {
+  width: 120px;
+  height: 120px;
+}
+.team-details {
+  float: right;
+  margin-left: 10px;
+}
+.team-name {
+  font-size: 18px;
+}
+.team-position {
+  color: #e4ecf2;
+  font-size: 13px;
+}
