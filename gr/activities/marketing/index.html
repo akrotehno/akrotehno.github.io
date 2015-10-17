@@ -183,32 +183,99 @@ ga('send', 'pageview');
       <div class="main-body-inner">
         <section id="main">
           <div class="main-body-content">
-            (function($) {
+            
+<div id="summary-cont">
+  <div id="summary">
+    <div class="col-sm-6">
+      <div id="cover_image" style="background-image:url(/activities/marketing/cover.jpg)"></div>
+    </div>
+    <div class="col-sm-6">
+      <div class="article-section c">
+        <p id="intro-text">
+          Είμαστε πεπεισμένοι ότι το δικτυακό μάρκετινγκ θα επικρατήσει και θα αναπτύσσεται γιατί το μεγάλο πλεονέκτημά του είναι η κατάργηση του ανταγωνισμού στις επιχειρήσεις. Εκπαιδευτική ομιλία για τη δημιουργία μιας παγκόσμιας επιχείρησης δικτυακού μάρκετινγκ μέσω της προσωπικής βελτίωσης.
+        </p>
+        <a class="button pull-right" href="#information">
+          Περισσότερες πληροφορίες
+        </a>
+        <p class="clear"></p>
+      </div>
+      <div 
+        id="upcoming_cont" class="article-section">
+        <p id="next_title">
+          Επόμενη Συγκέντρωση
+        </p>
+        <div class="hidden" id="next_details">
+          
+          </div>
+          <div class="hidden" id="no_next_details">
+            <p>
+              Δεν έχει οριστεί ακόμη η ημερομηνία.
+            </p>
+            <p>
+              Επισκεφθείτε μας πάλι για ενημέρωση. Σύντομα θα προσθέσουμε ενημερωτικό δελτίο για τις δραστηριότητές μας.
+            </p>
+            
+            <p class="clear"></p>
+          </div>
+        </div>
 
-  var upcoming = $('#upcoming_cont');
-  var date_time = upcoming.attr('date_time');
+      </div>
+    </div>
+  </div>
 
-  var next = $('#next_details');
-  var no_next = $('#no_next_details');
+  <div class="article-section b" id="participants">
+    <p class="heading">
+      Διοργανωτές - Ομιλητές
+    </p>
+    
+    <div class="pcp">
+      <img height="100" src="/team/tkarakatsanis/profile.jpg" width="100">
+      <div class="pcp-details">
+        <p class="pcp-title">
+          Θεμιστοκλής Καρακατσάνης
+        </p>
+        <p>
+          
+        </p>
+      </div>
+      <a class="button" href="/gr/team/tkarakatsanis/">
+         Βιογραφικό
+      </a>
+    </div>
 
+  
+</div>
 
-  if(!date_time){
-    no_next.removeClass('hidden');
-    return;
-  }
+<div class="article-section" id="information">
+  <p class="heading">
+    Πληροφορίες
+  </p>
+  
+    <p class="sub-heading">
+      Το Δικτυακό Μάρκετινγκ
+    </p>
+  
+  <p>
+    Είναι η σύσταση και προώθηση προϊόντων ή υπηρεσιών που μας αρέσουν. Αυτό είναι κάτι που κάνουμε καθημερινά, τόσο εμείς όσο και όλοι. Η δικτύωση είναι μια φυσική δραστηριότητα που ο καθένας μας ασκεί.
+  </p>
 
-  var selectedDate = new Date(date_time);
-  var now = new Date();
+    <p class="sub-heading">
+      Χωρίς Ανταγωνισμό
+    </p>
+  
+  <p>
+    Οι περισσότεροι υπάλληλοι έχουν βιώσει την εμπειρία το να βρεθούν σε ένα ανταγωνιστικό περιβάλλον, όπου οι παλαιότεροι αντιμετωπίζουν με μία επιφύλαξη τους νεότερους - με τον φόβο πως οι πιθανώς καλύτερες επιδόσεις τους θα τους δημιουργήσουν πρόβλημα. Η δομή του Δικτυακού Μάρκετινγκ, αντιθέτως, όχι απλά αποθαρρύνει, αλλά αποκλείει τέτοια συμπεριφορά. Οι υψηλές αποδόσεις των νεότερων μελών, δημιουργούνται μόνο με την βοήθεια και συνεργασία των παλαιότερων μελών που διαθέτουν την απαραίτητη πείρα. Έτσι εξασφαλίζεται και η ανάπτυξη της εταιρείας και η οικονομική βελτίωση του εισοδήματος όλων των μελών. Χαρακτηριστικό γνώρισμα του δικτυακού μάρκετινγκ είναι ότι η εκπαίδευση των νέων μελών παρέχεται δωρεάν.
+  </p>
 
+    <p class="sub-heading">
+      Φιλία και Συνεργασία
+    </p>
+  
+  <p>
+    Δίνει τη δυνατότητα να γνωριστούμε και να συνεργαστούμε με πολλούς ανθρώπους. Έτσι μπορείτε να χτίσετε τη δική σας ομάδα – επιχείρηση πάντα με τη βοήθεια των συνεργατών. Μπορείτε να γνωρίσετε νέους συνεργάτες, νέους πελάτες, με τους οποίους μπορείτε να δουλέψετε και να χτίσετε τη δική σας ομάδα. Ο άλλος στόχος είναι μέσω της συνεργασίας να δημιουργηθούν αληθινές φιλικές σχέσεις.
+  </p>
 
-  if (selectedDate < now) {
-    no_next.removeClass('hidden');
-  } else {
-    next.removeClass('hidden');
-  }
-
-
-})(jQuery);
+</div>
 
           </div>
         </section>
@@ -274,27 +341,6 @@ JQUERY
 
 
 <!-- ////////////////////////////////////////////////
-COMMENTS - DISQUS
-////////////////////////////////////////////////// -->
-
-
-<script>
-$(document).ready(function() {
-  var disqus_shortname = 'akrotehno';
-  
-  var disqus_url = 'http://yoursite.com/gr/activities/marketing/';
-  (function() {
-    var dsq = document.createElement('script');
-    dsq.type = 'text/javascript';
-    dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-});
-</script>
-
-
-<!-- ////////////////////////////////////////////////
 FORM - PARSLEY
 ////////////////////////////////////////////////// -->
 
@@ -321,6 +367,8 @@ ROYAL SLIDER
 
 
 
+
+<script src="/js/page/activity.js" type="text/javascript"></script>
 
 
 <!-- ////////////////////////////////////////////////

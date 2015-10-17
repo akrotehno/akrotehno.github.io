@@ -183,32 +183,117 @@ ga('send', 'pageview');
       <div class="main-body-inner">
         <section id="main">
           <div class="main-body-content">
-            (function($) {
+            
+<div id="summary-cont">
+  <div id="summary">
+    <div class="col-sm-6">
+      <div id="cover_image" style="background-image:url(/activities/ganoderma/cover.jpg)"></div>
+    </div>
+    <div class="col-sm-6">
+      <div class="article-section c">
+        <p id="intro-text">
+          Η ομιλία αυτή γίνεται πιστεύοντας ότι όλοι έχουμε ανάγκη από μια αληθινή γνώση η οποία μεταδίδεται με αγάπη για καλύτερη υγεία των αγαπημένων μας και της δικιάς μας με φυσικό τρόπο.
+        </p>
+        <a class="button pull-right" href="#information">
+          Περισσότερες πληροφορίες
+        </a>
+        <p class="clear"></p>
+      </div>
+      <div date_time="2015-10-31T18:00:00+02:00" space="Akrotehno Lagonissi"
+        id="upcoming_cont" class="article-section">
+        <p id="next_title">
+          Επόμενη Συγκέντρωση
+        </p>
+        <div class="hidden" id="next_details">
+          
+            <p>
+              <span class="sub-title">Ημερομηνία:</span>
+              <span>
+                Saturday,
+                31
+                Oct</span>
+            </p>
+            <p>
+              <span class="sub-title">Ώρα:</span>
+              <span>18:00:00</span>
+            </p>
+            <p>
+              <span class="sub-title">Χώρος:</span>
+              <span>
+                <a class="text-button" href="/en/visit/lagonissi/">Akrotehno Lagonissi</a>
+              </span>
+            </p>
+            
+          </div>
+          <div class="hidden" id="no_next_details">
+            <p>
+              Δεν έχει οριστεί ακόμη η ημερομηνία.
+            </p>
+            <p>
+              Επισκεφθείτε μας πάλι για ενημέρωση. Σύντομα θα προσθέσουμε ενημερωτικό δελτίο για τις δραστηριότητές μας.
+            </p>
+            
+            <p class="clear"></p>
+          </div>
+        </div>
 
-  var upcoming = $('#upcoming_cont');
-  var date_time = upcoming.attr('date_time');
+      </div>
+    </div>
+  </div>
 
-  var next = $('#next_details');
-  var no_next = $('#no_next_details');
+  <div class="article-section b" id="participants">
+    <p class="heading">
+      Διοργανωτές - Ομιλητές
+    </p>
+    
+    <div class="pcp">
+      <img height="100" src="/team/tkarakatsanis/profile.jpg" width="100">
+      <div class="pcp-details">
+        <p class="pcp-title">
+          Themistoklis Karakatsanis
+        </p>
+        <p>
+          
+        </p>
+      </div>
+      <a class="button" href="/en/team/tkarakatsanis/">
+         Biography
+      </a>
+    </div>
 
+  
+</div>
 
-  if(!date_time){
-    no_next.removeClass('hidden');
-    return;
-  }
+<div class="article-section" id="information">
+  <p class="heading">
+    Πληροφορίες
+  </p>
+  
+    <p class="sub-heading">
+      Τι είναι το Γανόδερμα (Ganoderma lucidum);
+    </p>
+  
+  <p>
+    Το Ganoderma Lucidum είναι ένα είδος μανιταριού που αναπτύσσεται σε δάση και είναι γνωστό και ως κόκκινο Reishi. Αυτά τα μανιτάρια έχουν χρησιμοποιηθεί στην Ασία για περισσότερο από 5.000 χρόνια και ήταν περιζήτητα από τους Κινέζους αυτοκράτορες για τις θεραπευτικές τους ιδιότητες.
+  </p>
 
-  var selectedDate = new Date(date_time);
-  var now = new Date();
+    <p class="sub-heading">
+      
+    </p>
+  
+  <p>
+    To Ganoderma Lucidum είναι ένα βοτανικό όνομα και προέρχεται από την αρχαία ελληνική γλώσσα, όπου Gano (γάνο) σημαίνει λαμπερός και derma σημαίνει δέρμα.
+  </p>
 
+    <p class="sub-heading">
+      Προσαρμογόνο βότανο
+    </p>
+  
+  <p>
+    Τα προσαρμογόνα βότανα παρέχουν αυτό ακριβώς που χρειάζεται το σώμα εκείνη τη στιγμή. Για παράδειγμα, ένα προσαρμογόνο βότανο κατάλληλο για την αρτηριακή πίεση μειώνει τα επίπεδα της αρτηριακής πίεσης σε υπερτασικούς, ενώ μπορεί επίσης να αυξήσει τη χαμηλή πίεση του αίματος. Ομοίως, ένα προσαρμογόνο βότανο κατάλληλο για την αντιμετώπιση των επιπέδων της χοληστερόλης, μπορεί να αυξήσει την καλή χοληστερόλη (HDL-C), χωρίς να αυξήσει και την κακή (LDL-C). Μόνο 300 βότανα έχουν αναγνωριστεί ως προσαρμογόνα, με το Ganoderma Lucidum να είναι στην κορυφή της λίστας.
+  </p>
 
-  if (selectedDate < now) {
-    no_next.removeClass('hidden');
-  } else {
-    next.removeClass('hidden');
-  }
-
-
-})(jQuery);
+</div>
 
           </div>
         </section>
@@ -274,27 +359,6 @@ JQUERY
 
 
 <!-- ////////////////////////////////////////////////
-COMMENTS - DISQUS
-////////////////////////////////////////////////// -->
-
-
-<script>
-$(document).ready(function() {
-  var disqus_shortname = 'akrotehno';
-  
-  var disqus_url = 'http://yoursite.com/en/activities/ganoderma/';
-  (function() {
-    var dsq = document.createElement('script');
-    dsq.type = 'text/javascript';
-    dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-});
-</script>
-
-
-<!-- ////////////////////////////////////////////////
 FORM - PARSLEY
 ////////////////////////////////////////////////// -->
 
@@ -321,6 +385,8 @@ ROYAL SLIDER
 
 
 
+
+<script src="/js/page/activity.js" type="text/javascript"></script>
 
 
 <!-- ////////////////////////////////////////////////
