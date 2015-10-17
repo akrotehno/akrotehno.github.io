@@ -1,4 +1,4 @@
-(function($) {
+jQuery(document).ready(function($) {
 
   (function() {
     var win = $(window);
@@ -107,138 +107,6 @@
     window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
   });
 
-  if ($.fancybox) {
-    var jElm = $('.fancybox');
-    var hideArrows = jElm.is("[hideArrows]");
-    jElm.fancybox({
-      openEffect: 'none',
-      padding: 7,
-      margin: 4,
-      slideWidth: 230,
-      minWidth: 350,
-      minHeight: 350,
-      autoResize: true,
-      closeEffect: 'none',
-      prevEffect: 'none',
-      nextEffect: 'none',
-      wrapCSS: 'productviewer',
-      closeBtn: false,
-      arrows: !hideArrows,
-      nextClick: true,
-      helpers: {
-        title: {
-          type: 'inside'
-        },
-        buttons: {},
-        thumbs: {
-          width: 50,
-          height: 50
-        }
-      },
-      afterLoad: function() {
-        //console.log(this);
-        this.title = '';
-
-      }
-    });
-  }
-
-  var slider_cont = $("#lightSlider");
-  var timeoutPlay;
-  var timeSlide = 10000;
-
-  if (slider_cont.length) {
-
-    var slider = slider_cont.lightSlider({
-      item: 1,
-      autoWidth: false,
-      slideMove: 1, // slidemove will be 1 if loop is true
-      slideMargin: 0,
-
-      addClass: '',
-      mode: "slide",
-      useCSS: true,
-      cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
-      easing: 'linear', //'for jquery animation',////
-
-      speed: 600, //ms'
-      auto: false,
-      loop: false,
-      slideEndAnimation: false,
-      pause: timeSlide,
-
-      keyPress: false,
-      controls: true,
-      prevHtml: '',
-      nextHtml: '',
-
-      rtl: false,
-      adaptiveHeight: false,
-
-      vertical: false,
-      verticalHeight: 500,
-      vThumbWidth: 100,
-
-      thumbItem: 10,
-      pager: true,
-      gallery: false,
-      galleryMargin: 5,
-      thumbMargin: 5,
-      currentPagerPosition: 'middle',
-
-      enableTouch: false,
-      enableDrag: false,
-      freeMove: true,
-      swipeThreshold: 70,
-
-      responsive: [],
-
-      onAfterSlide: function(el) {
-        currSlide = el;
-        checkLast();
-      },
-      onSliderLoad: function() {
-        slider_cont.fadeTo(400, 1);
-      }
-    });
-
-    var autoplay = true;
-    var currSlide;
-
-    function checkLast() {
-      if (!currSlide) {
-        return;
-      }
-      var count = currSlide.getCurrentSlideCount();
-      var total = currSlide.getTotalSlideCount();
-      if (total > 1 && count == total) {
-        clearTimeout(timeoutPlay);
-        timeoutPlay = window.setTimeout(function() {
-          slider.goToSlide(0);
-        }, timeSlide);
-
-      }
-    }
-
-    if (autoplay) {
-      slider_cont.parent().on('mouseenter', function() {
-        clearTimeout(timeoutPlay);
-        slider.pause();
-      });
-      slider_cont.parent().on('mouseleave', function() {
-        clearTimeout(timeoutPlay);
-        timeoutPlay = window.setTimeout(function() {
-          slider.play();
-          checkLast();
-        }, timeSlide);
-      });
-      timeoutPlay = window.setTimeout(function() {
-        slider.play();
-      }, timeSlide);
-    }
-
-  }
-
   var openClose = $('a.open-close');
   openClose.click(function() {
     this.closed = this.closed ? true : false;
@@ -253,4 +121,44 @@
     }
   });
 
-})(jQuery);
+  var opts = {
+    controlNavigation: 'thumbnails',
+    imageScaleMode: 'fill',
+    arrowsNav: true,
+    controlsInside: true,
+    arrowsNavHideOnTouch: false,
+    loop: false,
+    thumbs: {
+      firstMargin: false,
+      paddingBottom: 0
+    },
+    transitionType: 'fade',
+    numImagesToPreload: 3,
+    thumbsFirstMargin: false,
+    keyboardNavEnabled: true,
+    navigateByClick: false,
+    fadeinLoadedSlide: true,
+    fadeIn: true
+  };
+
+  var slider = $(".royalSlider").data('royalSlider');
+
+  if ($.rsModules) {
+
+    $.rsModules.fadeIn = function() {
+      var self = this;
+      if (self.st.fadeIn) {
+        $(".royalSlider").css({
+          "opacity": 1
+        });
+      }
+    };
+
+    $(".royalSlider").royalSlider(opts);
+
+  }
+
+
+
+
+});

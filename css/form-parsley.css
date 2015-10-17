@@ -1,0 +1,136 @@
+.form-envelope {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form p {
+  margin: 0;
+  padding: 0;
+}
+.form li.has-error input {
+  color: #f00;
+}
+.form li.has-error {
+  box-shadow: inset 5px 0 0 0 #f00;
+}
+.form li.has-focus input {
+  color: #006fc3;
+}
+.form li.has-success .indicator {
+  display: block;
+}
+.form li.has-focus .parsley-errors-list,
+.form li.has-focus .indicator {
+  display: none;
+}
+.form li.has-focus {
+  box-shadow: inset 5px 0 0 0 #006fc3;
+}
+.form .field {
+  padding: 10px;
+  position: relative;
+  margin: 14px 0px;
+  background-color: #eef5fb;
+}
+.form .field label {
+  margin-bottom: 10px;
+}
+.form textarea,
+.form input,
+.form label {
+  display: block;
+  background: transparent;
+}
+.form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.form .fields {
+  background-color: #2283dd;
+  padding: 10px;
+}
+.form .hidden {
+  display: none;
+}
+.form .field input {
+  width: 100%;
+}
+.form input {
+  font-size: 16px;
+}
+.form input,
+.form input:focus {
+  border: none;
+  outline: none;
+}
+.form .indicator {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 20px;
+  color: #11d911;
+  display: none;
+}
+.form .indicator:before {
+  font-family: FontAwesome;
+  content: '\f00c';
+}
+.parsley-errors-list {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: #fb4f18;
+}
+.form .btn-cont {
+  width: 100%;
+  background-color: #006fc3;
+  display: inline-block;
+}
+.form .btn {
+  cursor: pointer;
+  width: 50%;
+  height: 50px;
+  color: #fff;
+  font-size: 21px;
+  display: inline-block;
+}
+.form .btn.next {
+  float: right;
+}
+.steps {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+  font-family: arial;
+  font-size: 12px;
+  clear: both;
+  line-height: 1em;
+  margin: 0;
+  text-align: center;
+}
+.steps li {
+  float: left;
+  padding: 10px 30px;
+  background: #006fc3;
+  color: #fff;
+  position: relative;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.steps li:last-child:after {
+  border: none;
+}
+.steps li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 20;
+}
+.steps li.active {
+  background: #2283dd;
+}
+.steps-cont {
+  background: #2283dd;
+}

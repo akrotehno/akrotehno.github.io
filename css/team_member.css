@@ -2,12 +2,12 @@
   overflow: hidden;
 }
 .lSAction > a {
-  background-color: #cfe1ee;
+  background-color: #e4ecf2;
   color: #2283dd;
 }
 .lSSlideOuter {
   padding: 10px;
-  background-color: #cfe1ee;
+  background-color: #e4ecf2;
   display: inline-block;
   max-width: 100%;
   margin: 10px 0px !important;
@@ -54,7 +54,7 @@
 .no-line {
   width: 30px;
   margin: 0px auto;
-  border-bottom: 1px solid #e4ecf2;
+  border-bottom: 1px solid #eef5fb;
 }
 .half-line {
   line-height: 25px;

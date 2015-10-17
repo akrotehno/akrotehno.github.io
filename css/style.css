@@ -185,7 +185,8 @@ button::-moz-focus-inner {
 }
 html {
   margin: 0 auto;
-  background: #006fc3;
+  max-width: 1400px;
+  background: #cfe1ee;
 }
 html,
 body,
@@ -200,7 +201,7 @@ body {
   font: 14px "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
   -webkit-text-size-adjust: 100%;
   color: #202325;
-  overflow-x: hidden;
+  background-color: #cfe1ee;
 }
 #wrap {
   overflow-x: hidden;
@@ -268,7 +269,7 @@ body {
   min-height: 400px;
   float: right;
   width: 100%;
-  background: #e4ecf2;
+  background: #eef5fb;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -282,7 +283,7 @@ body {
   clear: both;
 }
 .main-body-header {
-  color: #e4ecf2;
+  color: #eef5fb;
   background: #006fc3;
   position: relative;
   padding: 10px;
@@ -300,8 +301,8 @@ body {
 .main-body-header em,
 .main-body-header a {
   padding: 8px;
-  color: #e4ecf2;
-  outline: solid 1px #e4ecf2;
+  color: #eef5fb;
+  outline: solid 1px #eef5fb;
   display: inline-block;
 }
 #header {
@@ -324,7 +325,7 @@ body {
   width: 290px;
   padding: 0px 10px;
   float: left;
-  color: #e4ecf2;
+  color: #eef5fb;
   text-align: left;
 }
 #header-title:before,
@@ -353,12 +354,12 @@ body {
 }
 .nav-container .nav-icon,
 .nav-container .nav-container-inner .main-nav-list-item .main-nav-list-link {
-  color: #e4ecf2;
+  color: #eef5fb;
   text-decoration: none;
   display: block;
   padding: 8px 5px;
   line-height: 20px;
-  outline: solid 1px #cfe1ee;
+  outline: solid 1px #e4ecf2;
 }
 .nav-container {
   background: #2283dd;
@@ -434,7 +435,7 @@ body {
   text-align: center;
   position: absolute;
   right: 0px;
-  background-color: #e4ecf2;
+  background-color: #eef5fb;
   -webkit-box-shadow: 0px 2px 4px #000;
   box-shadow: 0px 2px 4px #000;
   padding: 10px;
@@ -509,16 +510,16 @@ body {
   color: #fff;
 }
 .article-section.b {
-  background-color: #cfe1ee;
+  background-color: #e4ecf2;
 }
 .article-section.c {
-  background-color: #e4ecf2;
+  background-color: #eef5fb;
 }
 .article-inner {
   overflow: hidden;
 }
 .article-meta {
-  color: #e4ecf2;
+  color: #eef5fb;
   height: 1.6em;
   line-height: 1.6em;
   overflow: hidden;
@@ -564,7 +565,7 @@ body {
   margin-bottom: 30px;
 }
 .article-summary a {
-  color: #e4ecf2;
+  color: #eef5fb;
   text-decoration: none;
 }
 .article-summary .article-summary-cont {
@@ -816,7 +817,7 @@ a.article-title:hover {
   clear: both;
 }
 .article-footer a {
-  color: #e4ecf2;
+  color: #eef5fb;
   text-decoration: none;
   padding: 6px;
   background-color: #006fc3;
@@ -1127,7 +1128,7 @@ a.article-title:hover {
   color: #fff;
 }
 #footer #back-to-top {
-  background: #e4ecf2;
+  background: #eef5fb;
   overflow: hidden;
   text-align: center;
   width: 60px;
@@ -1357,7 +1358,7 @@ pre .javascript .function {
   font-family: FontAwesome;
   font-style: normal;
   text-align: center;
-  color: #e4ecf2;
+  color: #eef5fb;
 }
 .icon:before {
   -webkit-transition: 0.2s ease-in;
@@ -1448,15 +1449,11 @@ a {
   color: #fff;
   text-decoration: blink !important;
 }
-body {
-  background-color: #064474;
-  color: #002949;
-}
 .cover_card {
   display: inline-block;
   text-align: center;
   background-color: #006fc3;
-  color: #e4ecf2;
+  color: #eef5fb;
   padding: 10px;
   min-width: 100px;
   min-height: 67px;
@@ -1482,7 +1479,7 @@ body {
   background-color: #006fc3;
   padding: 10px;
   line-height: 55px;
-  color: #e4ecf2;
+  color: #eef5fb;
 }
 #cover_price {
   background: #006fc3;
@@ -1491,7 +1488,7 @@ body {
   border: solid 6px #006fc3;
   right: 0px;
   position: absolute;
-  color: #e4ecf2;
+  color: #eef5fb;
   font-size: 22px;
   padding: 2px 12px;
 }
@@ -1678,13 +1675,13 @@ body {
   float: right;
 }
 .lSSlideOuter .lSPager.lSpg > li a {
-  background-color: #e4ecf2;
+  background-color: #eef5fb;
 }
 #back-to-top .icon {
   color: #202325 !important;
 }
 .lslide {
-  color: #e4ecf2;
+  color: #eef5fb;
 }
 #PPMiniCart .minicart-item a {
   text-transform: capitalize;
@@ -1759,7 +1756,7 @@ body {
 }
 .announcement {
   color: #fff;
-  background: #10e100;
+  background: #00de00;
   text-align: center;
   position: relative;
   padding: 3px 5px;
@@ -2586,7 +2583,7 @@ body {
   display: table;
 }
 .slider_cont {
-  background: #e4ecf2;
+  background: #eef5fb;
   padding: 10px;
   display: inline-block;
   max-width: 100%;

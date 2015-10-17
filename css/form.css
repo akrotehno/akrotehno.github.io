@@ -1,0 +1,16 @@
+.article-section {
+  padding: 10px;
+}
+#intro {
+  text-align: center;
+}
+#intro .heading {
+  font-size: 29px;
+  color: #2283dd;
+}
+#intro .title {
+  font-weight: bold;
+  color: #2283dd;
+  margin-top: 20px;
+  font-size: 20px;
+}

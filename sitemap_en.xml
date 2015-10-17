@@ -2,13 +2,203 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/css/home.css</loc>
-    <lastmod>2015-09-30T18:11:50.008Z</lastmod>
+    <loc>http://yoursite.com/en/news/piraeus-archaeological-museum/</loc>
+    <lastmod>2015-10-17T16:58:51.996Z</lastmod>
   </url>
   
   <url>
-    <loc>http://yoursite.com/css/banner.css</loc>
-    <lastmod>2015-09-30T17:37:06.278Z</lastmod>
+    <loc>http://yoursite.com/css/activity.css</loc>
+    <lastmod>2015-10-17T15:13:31.004Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/health/organo-gold/ORG00000007/</loc>
+    <lastmod>2015-10-17T13:45:06.194Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/health/organo-gold/ORG00000006/</loc>
+    <lastmod>2015-10-17T13:45:06.138Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/health/organo-gold/ORG00000005/</loc>
+    <lastmod>2015-10-17T13:45:06.106Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/health/organo-gold/ORG00000004/</loc>
+    <lastmod>2015-10-17T13:45:06.070Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/health/organo-gold/ORG00000003/</loc>
+    <lastmod>2015-10-17T13:45:06.038Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/health/organo-gold/ORG00000002/</loc>
+    <lastmod>2015-10-17T13:45:06.002Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/health/organo-gold/ORG00000001/</loc>
+    <lastmod>2015-10-17T13:45:05.970Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-wood/memas/PNT00000002/</loc>
+    <lastmod>2015-10-17T13:45:05.934Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-wood/memas/PNT00000001/</loc>
+    <lastmod>2015-10-17T13:45:05.834Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-cardboard/kolokithas/PNT00000003/</loc>
+    <lastmod>2015-10-17T13:45:05.802Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/lianos/PNT00000005/</loc>
+    <lastmod>2015-10-17T13:45:05.754Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/ktenidis/PNT00000010/</loc>
+    <lastmod>2015-10-17T13:45:05.710Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/ktenidis/PNT00000006/</loc>
+    <lastmod>2015-10-17T13:45:05.666Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/kolokithas/PNT00000007/</loc>
+    <lastmod>2015-10-17T13:45:05.618Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/kadras/PNT00000012/</loc>
+    <lastmod>2015-10-17T13:45:05.574Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/kadras/PNT00000011/</loc>
+    <lastmod>2015-10-17T13:45:05.530Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/kadras/PNT00000009/</loc>
+    <lastmod>2015-10-17T13:45:05.494Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/kadras/PNT00000008/</loc>
+    <lastmod>2015-10-17T13:45:05.462Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/kadras/PNT00000004/</loc>
+    <lastmod>2015-10-17T13:45:05.430Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/ikonomu/PNT00000015/</loc>
+    <lastmod>2015-10-17T13:45:05.394Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/ikonomu/PNT00000014/</loc>
+    <lastmod>2015-10-17T13:45:05.362Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/ikonomu/PNT00000013/</loc>
+    <lastmod>2015-10-17T13:45:05.322Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/home.css</loc>
+    <lastmod>2015-10-17T12:01:49.851Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/royalslider.skin.css</loc>
+    <lastmod>2015-10-17T11:55:06.209Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/slider.css</loc>
+    <lastmod>2015-10-17T11:10:02.140Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/style.css</loc>
+    <lastmod>2015-10-17T10:50:49.466Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/categories/news.css</loc>
+    <lastmod>2015-10-17T09:35:30.164Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/news.css</loc>
+    <lastmod>2015-10-17T09:24:11.636Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/lightbox.css</loc>
+    <lastmod>2015-10-17T03:35:10.910Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/activities/marketing/</loc>
+    <lastmod>2015-10-16T16:05:56.590Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/activities/ganoderma/</loc>
+    <lastmod>2015-10-16T15:04:44.244Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/team/tkarakatsanis/</loc>
+    <lastmod>2015-10-16T14:47:08.747Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/royalslider.css</loc>
+    <lastmod>2015-10-14T09:21:38.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/legal.css</loc>
+    <lastmod>2015-10-08T09:37:16.068Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/form-parsley.css</loc>
+    <lastmod>2015-10-07T16:33:13.932Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/form.css</loc>
+    <lastmod>2015-10-07T13:02:36.491Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/en/visit/lagonissi/</loc>
+    <lastmod>2015-10-04T12:01:13.454Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/activities.css</loc>
+    <lastmod>2015-10-04T11:44:15.181Z</lastmod>
   </url>
   
   <url>
@@ -47,11 +237,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/css/style.css</loc>
-    <lastmod>2015-09-27T17:09:39.332Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/css/team_member.css</loc>
     <lastmod>2015-09-27T14:36:09.186Z</lastmod>
   </url>
@@ -62,18 +247,13 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/css/activity.css</loc>
-    <lastmod>2015-09-24T15:28:06.967Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/css/team.css</loc>
     <lastmod>2015-09-22T14:49:19.176Z</lastmod>
   </url>
   
   <url>
-    <loc>http://yoursite.com/css/activities.css</loc>
-    <lastmod>2015-09-22T10:56:00.151Z</lastmod>
+    <loc>http://yoursite.com/css/lightslider.css</loc>
+    <lastmod>2015-09-21T09:03:29.434Z</lastmod>
   </url>
   
   <url>
@@ -84,11 +264,6 @@
   <url>
     <loc>http://yoursite.com/css/space.css</loc>
     <lastmod>2015-09-18T17:23:27.966Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/visit/lagonissi/</loc>
-    <lastmod>2015-09-14T15:33:10.044Z</lastmod>
   </url>
   
   <url>
@@ -122,43 +297,13 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-wood/memas/PNT00000002/</loc>
-    <lastmod>2015-07-18T13:56:26.232Z</lastmod>
+    <loc>http://yoursite.com/css/fancybox/jquery.fancybox-buttons.css</loc>
+    <lastmod>2015-07-28T17:00:18.465Z</lastmod>
   </url>
   
   <url>
-    <loc>http://yoursite.com/en/news/fresh-preview/</loc>
-    <lastmod>2015-07-12T10:46:44.927Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/news/order-guide/</loc>
-    <lastmod>2015-07-12T10:39:10.741Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/kadras/PNT00000008/</loc>
-    <lastmod>2015-07-10T10:37:25.953Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/ikonomu/PNT00000015/</loc>
-    <lastmod>2015-07-10T10:37:23.701Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/ikonomu/PNT00000014/</loc>
-    <lastmod>2015-07-10T10:37:21.945Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/ikonomu/PNT00000013/</loc>
-    <lastmod>2015-07-10T10:37:19.797Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/kadras/PNT00000004/</loc>
-    <lastmod>2015-07-10T10:37:17.045Z</lastmod>
+    <loc>http://yoursite.com/css/fancybox/jquery.fancybox.css</loc>
+    <lastmod>2015-07-28T16:29:57.236Z</lastmod>
   </url>
   
   <url>
@@ -169,91 +314,6 @@
   <url>
     <loc>http://yoursite.com/paypal/on-cancel/index.html</loc>
     <lastmod>2015-06-29T20:36:36.768Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/health/organo-gold/ORG00000007/</loc>
-    <lastmod>2015-06-29T13:18:58.729Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/health/organo-gold/ORG00000003/</loc>
-    <lastmod>2015-06-29T13:18:41.925Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/health/organo-gold/ORG00000006/</loc>
-    <lastmod>2015-06-29T13:16:55.465Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/health/organo-gold/ORG00000005/</loc>
-    <lastmod>2015-06-29T13:16:35.549Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/health/organo-gold/ORG00000004/</loc>
-    <lastmod>2015-06-29T13:16:01.141Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/health/organo-gold/ORG00000002/</loc>
-    <lastmod>2015-06-29T13:14:58.368Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/health/organo-gold/ORG00000001/</loc>
-    <lastmod>2015-06-29T13:14:17.808Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/checkout/</loc>
-    <lastmod>2015-06-24T10:55:22.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-wood/memas/PNT00000001/</loc>
-    <lastmod>2015-06-22T21:57:36.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-cardboard/kolokithas/PNT00000003/</loc>
-    <lastmod>2015-06-22T21:56:12.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/lianos/PNT00000005/</loc>
-    <lastmod>2015-06-22T21:55:44.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/ktenidis/PNT00000010/</loc>
-    <lastmod>2015-06-22T21:55:20.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/ktenidis/PNT00000006/</loc>
-    <lastmod>2015-06-22T21:54:56.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/kolokithas/PNT00000007/</loc>
-    <lastmod>2015-06-22T21:54:28.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/kadras/PNT00000009/</loc>
-    <lastmod>2015-06-22T21:53:38.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/kadras/PNT00000011/</loc>
-    <lastmod>2015-06-22T21:52:40.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/en/arts/paintings/oil-on-canvas/kadras/PNT00000012/</loc>
-    <lastmod>2015-06-22T21:52:04.000Z</lastmod>
   </url>
   
   <url>
@@ -294,6 +354,11 @@
   <url>
     <loc>http://yoursite.com/en/artists/kadras/</loc>
     <lastmod>2015-05-31T21:58:40.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/fancybox/jquery.fancybox-thumbs.css</loc>
+    <lastmod>2015-05-19T22:06:30.000Z</lastmod>
   </url>
   
 </urlset>

@@ -103,7 +103,7 @@ function rethrow(err, str, filename, lineno){
     + lineno + '\n'
     + context + '\n\n'
     + err.message;
-  
+
   throw err;
 }
 
@@ -134,7 +134,7 @@ var parse = exports.parse = function(str, options){
     var stri = str[i];
     if (str.slice(i, open.length + i) == open) {
       i += open.length
-  
+
       var prefix, postfix, line = (compileDebug ? '__stack.lineno=' : '') + lineno;
       switch (str[i]) {
         case '=':
@@ -218,14 +218,14 @@ var parse = exports.parse = function(str, options){
 var compile = exports.compile = function(str, options){
   options = options || {};
   var escape = options.escape || utils.escape;
-  
+
   var input = JSON.stringify(str)
     , compileDebug = options.compileDebug !== false
     , client = options.client
     , filename = options.filename
         ? JSON.stringify(options.filename)
         : 'undefined';
-  
+
   if (compileDebug) {
     // Adds the fancy stack trace meta info
     str = [
@@ -240,7 +240,7 @@ var compile = exports.compile = function(str, options){
   } else {
     str = exports.parse(str, options);
   }
-  
+
   if (options.debug) console.log(str);
   if (client) str = 'escape = escape || ' + escape.toString() + ';\n' + str;
 
@@ -594,7 +594,7 @@ exports.escape = function(html){
     .replace(/'/g, '&#39;')
     .replace(/"/g, '&quot;');
 };
- 
+
 
 },{}],4:[function(require,module,exports){
 
@@ -795,7 +795,7 @@ exports.dirname = function(path) {
 
 exports.basename = function(path, ext) {
   var f = splitPath(path)[2];
-  // TODO: make this comparison case-insensitive on windows?
+
   if (ext && f.substr(-1 * ext.length) === ext) {
     f = f.substr(0, f.length - ext.length);
   }

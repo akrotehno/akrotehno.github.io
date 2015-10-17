@@ -1,7 +1,17 @@
 .heading {
   color: #2283dd;
   font-size: 29px;
+  line-height: 40px;
   margin-bottom: 10px;
+}
+#information {
+  line-height: 23px;
+}
+#no_next_details {
+  line-height: 20px;
+}
+#no_next_details p {
+  margin-top: 10px;
 }
 .sub-heading {
   font-size: 19px;
@@ -21,11 +31,12 @@
 #summary {
   max-width: 1000px;
   margin: 0 auto;
+  background-color: #e4ecf2;
 }
 #cover_image {
   background-size: cover;
   background-position: center;
-  min-height: 240px;
+  min-height: 300px;
 }
 #next_title {
   font-weight: bold;
@@ -36,12 +47,17 @@
   font-size: 17px;
   line-height: 26px;
 }
+.text-button {
+  outline: 1px solid #2283dd;
+  padding: 4px;
+  color: #006fc3;
+}
 .pcp {
   position: relative;
   display: inline-block;
   background: #2283dd;
   padding: 10px;
-  color: #e4ecf2;
+  color: #eef5fb;
 }
 .pcp .button {
   position: absolute;
@@ -49,7 +65,7 @@
   bottom: 0px;
   margin: 10px;
   color: #006fc3;
-  background: #e4ecf2;
+  background: #eef5fb;
 }
 .pcp-title {
   font-size: 17px;

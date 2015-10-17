@@ -1,0 +1,38 @@
+.heading {
+  color: #2283dd;
+  font-size: 29px;
+  margin-bottom: 10px;
+}
+.intro {
+  text-align: center;
+}
+.intro .text {
+  margin-bottom: 10px;
+  line-height: 28px;
+  font-size: 18px;
+}
+.intro .date {
+  font-size: 15px;
+  color: #006fc3;
+}
+#summary-cont {
+  width: 100%;
+  box-sizing: border-box;
+  background: #2283dd;
+  padding: 10px;
+}
+#summary {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #e4ecf2;
+}
+#cover_image {
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+}
+#next_title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #2283dd;
+}

@@ -34,12 +34,12 @@
   display: table;
 }
 #team-member {
-  background-color: #cfe1ee;
+  background-color: #e4ecf2;
 }
 #team-member-inner {
   max-width: 850px;
   margin: 0 auto;
-  background-color: #e4ecf2;
+  background-color: #eef5fb;
 }
 #team-name {
   font-size: 24px;
@@ -174,7 +174,7 @@
   background-color: #fafafa;
 }
 .vertical-timeline-container .post .symbol {
-  color: #e4ecf2;
+  color: #eef5fb;
   left: -62px;
   font-size: 12px;
   text-align: center;
