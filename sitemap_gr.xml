@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/gr/team/cchristofis/</loc>
+    <lastmod>2015-10-18T11:24:48.815Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/gr/news/piraeus-archaeological-museum/</loc>
     <lastmod>2015-10-17T16:58:51.996Z</lastmod>
   </url>
@@ -199,11 +204,6 @@
   <url>
     <loc>http://yoursite.com/css/activities.css</loc>
     <lastmod>2015-10-04T11:44:15.181Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/gr/team/cchristofis/</loc>
-    <lastmod>2015-09-30T16:49:08.875Z</lastmod>
   </url>
   
   <url>
