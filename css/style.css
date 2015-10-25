@@ -185,7 +185,6 @@ button::-moz-focus-inner {
 }
 html {
   margin: 0 auto;
-  max-width: 1400px;
   background: #cfe1ee;
 }
 html,
@@ -359,7 +358,7 @@ body {
   display: block;
   padding: 8px 5px;
   line-height: 20px;
-  outline: solid 1px #e4ecf2;
+  outline: solid 1px #d1e6f6;
 }
 .nav-container {
   background: #2283dd;
@@ -510,7 +509,7 @@ body {
   color: #fff;
 }
 .article-section.b {
-  background-color: #e4ecf2;
+  background-color: #d1e6f6;
 }
 .article-section.c {
   background-color: #eef5fb;
@@ -1447,7 +1446,6 @@ pre .javascript .function {
 a {
   cursor: pointer;
   color: #fff;
-  text-decoration: blink !important;
 }
 .cover_card {
   display: inline-block;
@@ -1663,7 +1661,7 @@ a {
   font-size: 27px;
   margin: 14px 0px;
   font-weight: bold;
-  color: #064474;
+  color: #015494;
 }
 .link_header {
   color: #006fc3;
@@ -1756,7 +1754,7 @@ a {
 }
 .announcement {
   color: #fff;
-  background: #00de00;
+  background: #015494;
   text-align: center;
   position: relative;
   padding: 3px 5px;

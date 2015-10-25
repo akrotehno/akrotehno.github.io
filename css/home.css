@@ -145,7 +145,7 @@
   font-weight: normal;
 }
 .word-emphasize {
-  color: #064474;
+  color: #015494;
   font-size: 19px;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -207,7 +207,7 @@
 .bar-left-text {
   width: 100%;
   padding: 10px 0px;
-  color: #064474;
+  color: #015494;
   font-size: 22px;
   box-sizing: border-box;
 }

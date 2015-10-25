@@ -1,13 +1,24 @@
 #team-member {
   overflow: hidden;
 }
+#intro_gallery {
+  background: #d1e6f6;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+#intro_gallery .slider_cont {
+  background: transparent;
+}
+.intro-head {
+  line-height: 20px;
+}
 .lSAction > a {
-  background-color: #e4ecf2;
+  background-color: #d1e6f6;
   color: #2283dd;
 }
 .lSSlideOuter {
   padding: 10px;
-  background-color: #e4ecf2;
+  background-color: #d1e6f6;
   display: inline-block;
   max-width: 100%;
   margin: 10px 0px !important;
@@ -31,7 +42,8 @@
   margin-left: 210px;
 }
 .intro-txt {
-  margin: 10px 0px;
+  margin: 14px 0px;
+  line-height: 20px;
 }
 .soft-black {
   color: #5f5f5f;
