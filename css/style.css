@@ -2614,6 +2614,12 @@ a {
   -ms-transform: scale(1.15);
   transform: scale(1.15);
 }
+.minicart-showing #wrap {
+  width: 100%;
+}
+#PPMiniCart form {
+  background: #2283dd !important;
+}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   .article-entry .img-wrap:before {
     background: url("images/preloader@2x.gif") center center no-repeat, rgba(0,0,0,0.9);

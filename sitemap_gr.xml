@@ -2,6 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/gr/volunteer/</loc>
+    <lastmod>2015-11-07T20:30:54.407Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/volunteer.css</loc>
+    <lastmod>2015-11-07T19:48:57.739Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/gr/sponsor/</loc>
+    <lastmod>2015-11-07T16:48:52.521Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/gr/checkout/</loc>
+    <lastmod>2015-11-05T18:55:12.531Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/gr/activities/</loc>
+    <lastmod>2015-11-05T18:55:01.807Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/gr/register/</loc>
+    <lastmod>2015-11-05T18:53:41.742Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/gr/projects/feature-film/</loc>
+    <lastmod>2015-11-05T18:53:02.538Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/gr/projects/feature-film/sponsor/</loc>
+    <lastmod>2015-11-05T18:48:54.133Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/sponsor-project.css</loc>
+    <lastmod>2015-11-04T17:13:36.079Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/sponsor.css</loc>
+    <lastmod>2015-10-28T12:35:35.064Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/style.css</loc>
+    <lastmod>2015-10-27T10:38:14.002Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/css/checkout.css</loc>
+    <lastmod>2015-10-26T18:31:07.327Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/gr/creators/</loc>
     <lastmod>2015-10-25T15:29:20.598Z</lastmod>
   </url>
@@ -17,11 +77,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/css/sponsor.css</loc>
-    <lastmod>2015-10-24T18:07:05.002Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/gr/news/piraeus-archaeological-museum/</loc>
     <lastmod>2015-10-24T15:59:16.918Z</lastmod>
   </url>
@@ -29,11 +84,6 @@
   <url>
     <loc>http://yoursite.com/css/creators.css</loc>
     <lastmod>2015-10-23T16:03:33.725Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/css/style.css</loc>
-    <lastmod>2015-10-23T15:37:40.961Z</lastmod>
   </url>
   
   <url>
@@ -239,11 +289,6 @@
   <url>
     <loc>http://yoursite.com/css/categories/team.css</loc>
     <lastmod>2015-09-30T15:57:46.164Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/gr/participate/</loc>
-    <lastmod>2015-09-30T11:35:45.978Z</lastmod>
   </url>
   
   <url>

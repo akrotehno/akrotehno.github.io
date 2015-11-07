@@ -1,0 +1,37 @@
+.payment_instrument_images {
+  text-align: center;
+}
+.payment_instrument_images img {
+  width: 54px;
+}
+#braintree-paypal-button {
+  margin: 10px !important;
+  display: none;
+}
+#payment-main {
+  float: right;
+  max-width: 400px;
+}
+#payment-cont {
+  margin: 10px;
+  background-color: #2283dd;
+  padding: 10px;
+}
+#payment-cont .title {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+#payment-form {
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+input[type=submit] {
+  color: #006fc3;
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  float: right;
+}

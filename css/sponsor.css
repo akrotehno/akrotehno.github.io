@@ -1,98 +1,62 @@
-input[type=range] {
-  -webkit-appearance: none;
-  margin: 15px 0;
-  width: 100%;
+#cover-pic {
+  height: 370px;
+  background-size: cover;
 }
-input[type=range]:focus {
-  outline: none;
+#introduction {
+  line-height: 20px;
+  color: #202325;
+  max-width: 800px;
+  margin: 0 auto;
 }
-input[type=range]::-webkit-slider-runnable-track {
-  width: 100%;
-  height: 5px;
-  cursor: pointer;
-  animate: 0.2s;
-  background: #2283dd;
-  border-radius: 0px;
-  border: 0px solid #000;
+#prj-list {
+  padding: 10px;
+  overflow-x: auto;
 }
-input[type=range]::-webkit-slider-thumb {
-  border: 4px solid #2283dd;
-  height: 30px;
-  width: 30px;
-  border-radius: 0px;
+.article-section .title {
+  font-size: 30px;
+  color: #2283dd;
+  font-weight: bold;
+}
+.prj-links {
+  position: absolute;
+  bottom: 5px;
+  right: 0px;
+}
+.prj-btn {
   background: #eef5fb;
-  cursor: pointer;
-  -webkit-appearance: none;
-  margin-top: -12.5px;
+  color: #015494;
+  padding: 5px;
+  margin-left: 10px;
 }
-input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #2283dd;
+.prj-pic {
+  float: left;
 }
-input[type=range]::-moz-range-track {
-  width: 100%;
-  height: 5px;
-  cursor: pointer;
-  animate: 0.2s;
-  background: #2283dd;
-  border-radius: 0px;
-  border: 0px solid #000;
+img.prj-pic {
+  width: 130px;
+  height: 130px;
 }
-input[type=range]::-moz-range-thumb {
-  border: 4px solid #2283dd;
-  height: 30px;
-  width: 30px;
-  border-radius: 0px;
-  background: #eef5fb;
-  cursor: pointer;
+.prj-row {
+  white-space: nowrap;
+  overflow-x: auto;
 }
-input[type=range]::-moz-focus-outer {
-  border: 0;
+.prj-cont {
+  display: inline-block;
 }
-input[type=range]::-ms-track {
-  width: 100%;
-  height: 5px;
-  cursor: pointer;
-  animate: 0.2s;
-  background: transparent;
-  border-color: transparent;
-  border-width: 30px 0;
-  color: transparent;
-}
-input[type=range]::-ms-fill-lower {
-  background: #2283dd;
-  border: 0px solid #000;
-  border-radius: 0px;
-}
-input[type=range]::-ms-fill-upper {
-  background: #2283dd;
-  border: 0px solid #000;
-  border-radius: 0px;
-}
-input[type=range]::-ms-thumb {
-  border: 4px solid #2283dd;
-  height: 30px;
-  width: 30px;
-  border-radius: 0px;
-  background: #eef5fb;
-  cursor: pointer;
-}
-input[type=range]:focus::-ms-fill-lower {
-  background: #2283dd;
-}
-input[type=range]:focus::-ms-fill-upper {
-  background: #2283dd;
-}
-input[type=submit],
-input[type=number] {
-  background-color: #2283dd;
-  padding: 6px;
+.prj-container {
+  width: 350px;
   color: #fff;
-  border: none;
-  font-size: 16px;
+  background: #2283dd;
+  padding: 10px;
+  display: inline-block;
 }
-input[type=submit]:focus,
-input[type=number]:focus {
-  box-shadow: none;
-  border: none;
-  outline: none;
+.prj-details {
+  margin-left: 140px;
+  height: 130px;
+  position: relative;
+}
+.prj-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 18px;
 }
