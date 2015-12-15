@@ -4,7 +4,7 @@
 .section_title {
   font-size: 26px;
   font-weight: bold;
-  color: #2283dd;
+  color: #0078e7;
 }
 .activity_details {
   position: absolute;
@@ -41,5 +41,5 @@
   margin: 10px;
   line-height: 22px;
   text-align: center;
-  background-color: #2283dd;
+  background-color: #0078e7;
 }

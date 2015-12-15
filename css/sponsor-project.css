@@ -13,38 +13,38 @@ input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 5px;
   animate: 0.2s;
-  background: #2283dd;
+  background: #0078e7;
   border-radius: 0px;
   border: 0px solid #000;
 }
 input[type=range]::-webkit-slider-thumb {
-  border: 0px solid #eef5fb;
+  border: 0px solid #f7f9fb;
   height: 30px;
   width: 30px;
   border-radius: 100%;
-  background: #eef5fb;
+  background: #f7f9fb;
   box-shadow: 0px 2px 6px #015494;
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -12.5px;
 }
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #2283dd;
+  background: #0078e7;
 }
 input[type=range]::-moz-range-track {
   width: 100%;
   height: 5px;
   animate: 0.2s;
-  background: #2283dd;
+  background: #0078e7;
   border-radius: 0px;
   border: none;
 }
 input[type=range]::-moz-range-thumb {
-  border: 0px solid #eef5fb;
+  border: 0px solid #f7f9fb;
   height: 30px;
   width: 30px;
   border-radius: 100%;
-  background: #eef5fb;
+  background: #f7f9fb;
   box-shadow: 0px 2px 6px #015494;
   cursor: pointer;
 }
@@ -61,33 +61,33 @@ input[type=range]::-ms-track {
   color: transparent;
 }
 input[type=range]::-ms-fill-lower {
-  background: #2283dd;
+  background: #0078e7;
   border: 0px solid #000;
   border-radius: 0px;
 }
 input[type=range]::-ms-fill-upper {
-  background: #2283dd;
+  background: #0078e7;
   border: 0px solid #000;
   border-radius: 0px;
 }
 input[type=range]::-ms-thumb {
-  border: 0px solid #eef5fb;
+  border: 0px solid #f7f9fb;
   height: 30px;
   width: 30px;
   border-radius: 100%;
-  background: #eef5fb;
+  background: #f7f9fb;
   box-shadow: 0px 2px 6px #015494;
   cursor: pointer;
 }
 input[type=range]:focus::-ms-fill-lower {
-  background: #2283dd;
+  background: #0078e7;
 }
 input[type=range]:focus::-ms-fill-upper {
-  background: #2283dd;
+  background: #0078e7;
 }
 input[type=submit],
 input[type=number] {
-  background-color: #2283dd;
+  background-color: #0078e7;
   padding: 6px;
   color: #fff;
   border: none;
@@ -114,18 +114,18 @@ input[type=number]:focus {
   font-size: 30px;
   font-weight: bold;
   padding: 10px 0px;
-  color: #2283dd;
+  color: #0078e7;
   margin-bottom: 10px;
 }
 #ratings .btn {
-  border: solid 2px #2283dd;
-  color: #2283dd;
+  border: solid 2px #0078e7;
+  color: #0078e7;
   padding: 10px;
   display: inline-block;
   float: right;
 }
 #sponsor-stars {
-  color: #2283dd;
+  color: #0078e7;
 }
 .card {
   display: inline-block;
@@ -135,8 +135,8 @@ input[type=number]:focus {
   white-space: normal;
 }
 .card-in {
-  border: solid 2px #2283dd;
-  color: #2283dd;
+  border: solid 2px #0078e7;
+  color: #0078e7;
   background-color: transparent;
   padding: 10px;
 }
@@ -145,10 +145,10 @@ input[type=number]:focus {
 }
 .card.act .card-in {
   color: #fff;
-  background-color: #2283dd;
+  background-color: #0078e7;
 }
 .card.act .btn {
-  background-color: #eef5fb;
+  background-color: #f7f9fb;
 }
 .type-cont {
   width: 400px;
@@ -157,14 +157,14 @@ input[type=number]:focus {
   border-bottom: none;
 }
 #ratings .feature-btn {
-  background: #2283dd;
+  background: #0078e7;
   display: inline-block;
   color: #fff;
   padding: 10px;
   font-size: 16px;
 }
 #ratings .feature-btn.incl {
-  color: #eef5fb;
+  color: #f7f9fb;
   font-size: 14px;
   padding: 6px;
 }
@@ -189,15 +189,15 @@ input[type=number]:focus {
   height: 52px;
 }
 #am-range .ind.left {
-  border-left: solid 4px #2283dd;
+  border-left: solid 4px #0078e7;
   left: 0px;
 }
 #am-range .ind.right {
-  border-right: solid 4px #2283dd;
+  border-right: solid 4px #0078e7;
   right: 0px;
 }
 #am-range .ind .am {
-  background-color: #2283dd;
+  background-color: #0078e7;
   color: #fff;
   padding: 0 10px;
 }
@@ -214,12 +214,12 @@ input[type=number]:focus {
   font-size: 30px;
   font-weight: bold;
   line-height: 30px;
-  color: #2283dd;
+  color: #0078e7;
 }
 #ratings .subtitle {
   font-weight: bold;
   font-size: 22px;
-  color: #006fc3;
+  color: #0069ca;
   margin-bottom: 3px;
 }
 #ratings .subtitle.inc {
@@ -236,7 +236,7 @@ input[type=number]:focus {
 }
 #star-txt {
   font-size: 24px;
-  color: #2283dd;
+  color: #0078e7;
   margin-bottom: 5px;
 }
 .star {
@@ -251,9 +251,9 @@ input[type=number]:focus {
 }
 #viewAmount {
   font-size: 35px;
-  color: #2283dd;
+  color: #0078e7;
   padding: 2px;
-  background-color: #d1e6f6;
+  background-color: #ecf0f3;
   width: 130px;
   text-align: center;
 }
@@ -264,7 +264,7 @@ input[type=number]:focus {
   margin-bottom: 10px;
 }
 .currency {
-  color: #2283dd;
+  color: #0078e7;
   font-size: 39px;
 }
 .stars-cont {
@@ -284,12 +284,12 @@ input[type=number]:focus {
   position: absolute;
   width: 46px;
   height: 46px;
-  background: #2283dd;
+  background: #0078e7;
   border-radius: 100%;
   margin-left: -23px;
   text-align: center;
   font-weight: bold;
-  color: #2283dd;
+  color: #0078e7;
 }
 .slider-bg li span {
   position: absolute;

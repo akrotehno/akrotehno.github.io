@@ -1,21 +1,32 @@
-.team-pic {
-  float: left;
-}
-.team-container {
-  display: inline-block;
-}
 img.team-pic {
-  width: 120px;
-  height: 120px;
+  float: left;
+  border-radius: 8px;
+  width: 75px;
+  height: 75px;
+}
+.team-footer {
+  margin-top: 5px;
+}
+.team-row {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.team-cnt p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .team-details {
-  float: right;
-  margin-left: 10px;
+  margin-left: 84px;
 }
 .team-name {
-  font-size: 18px;
+  font-size: 20px;
+}
+.team-descr {
+  font-size: 14px;
 }
 .team-position {
-  color: #eef5fb;
-  font-size: 13px;
+  color: #f7f9fb;
+  margin-top: 5px;
+  font-size: 14px;
 }

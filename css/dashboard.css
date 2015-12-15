@@ -1,0 +1,25 @@
+#menu {
+  padding: 5px;
+  background: #ecf0f3;
+}
+#menu .card .title {
+  color: #0078e7;
+  font-size: 20px;
+}
+#menu .entries {
+  display: inline-block;
+}
+#menu .card {
+  color: #0069ca;
+  background: #f7f9fb;
+  padding: 10px;
+  display: inline-block;
+  margin: 5px;
+}
+#menu .card .btn {
+  border: solid 1px #0078e7;
+  padding: 10px;
+  color: #0078e7;
+  display: inline-block;
+  margin: 0px 5px;
+}

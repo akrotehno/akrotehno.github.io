@@ -1,0 +1,26 @@
+#signin-views .view {
+  max-width: 450px;
+  margin: 0 auto;
+}
+#signin {
+  color: #0069ca;
+  text-align: center;
+}
+#signin .intro {
+  font-size: 20px;
+}
+#signin .btn {
+  border: solid 1px #0078e7;
+  padding: 10px;
+  color: #0069ca;
+  display: inline-block;
+  margin: 10px 0;
+  margin-left: 5px;
+}
+#signin .btn.selected {
+  background: #0078e7;
+  color: #fff;
+}
+#signin .btn:first-child {
+  margin-left: 0px;
+}

@@ -2,37 +2,93 @@
   max-width: 400px;
   margin: 0 auto;
 }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=checkbox] {
+  display: none !important;
+}
+.form .btn-cont .btn {
+  text-align: center;
+}
+.checkbox label:before {
+  content: " ";
+  display: inline-block;
+  border-radius: 3px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: #f7f9fb;
+  font-size: 20px;
+  color: #0078e7;
+  text-align: center;
+  font-family: FontAwesome;
+}
+input[type=checkbox]:checked+label:before {
+  content: "\f00c";
+}
+.form .field .input-cont {
+  position: relative;
+}
+.form .field.currency .input-cont > span,
+.form .field.currency .input-cont input {
+  font-size: 27px;
+  line-height: 42px;
+  color: #0078e7;
+}
+.form .field.currency .input-cont input {
+  font-weight: bold;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+.form .field .input-before {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.form .field .input-after {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.form .field.checkbox {
+  background-color: transparent;
+  padding: 0px;
+  line-height: 30px;
+}
+.form .field.checkbox label {
+  margin-left: 35px;
+  color: #fff;
+}
 .form p {
   margin: 0;
   padding: 0;
 }
-.form li.has-error input {
-  color: #f00;
-}
 .form li.has-error {
   box-shadow: inset 5px 0 0 0 #f00;
 }
-.form li.has-focus input {
-  color: #006fc3;
+.form .form-container {
+  border-radius: 10px;
+  overflow: hidden;
 }
 .form li.has-success .indicator {
   display: block;
 }
-.form li.has-focus .parsley-errors-list,
-.form li.has-focus .indicator {
-  display: none;
-}
-.form li.has-focus {
-  box-shadow: inset 5px 0 0 0 #006fc3;
-}
 .form .field {
+  text-align: left;
   padding: 10px;
+  border-radius: 6px;
   position: relative;
   margin: 14px 0px;
-  background-color: #eef5fb;
+  background-color: #f7f9fb;
 }
 .form .field label {
-  margin-bottom: 10px;
+  font-size: 16px;
 }
 .form textarea,
 .form input,
@@ -46,7 +102,7 @@
   padding: 0;
 }
 .form .fields {
-  background-color: #2283dd;
+  background-color: #0078e7;
   padding: 10px;
 }
 .form .hidden {
@@ -57,6 +113,7 @@
 }
 .form input {
   font-size: 16px;
+  line-height: 30px;
 }
 .form input,
 .form input:focus {
@@ -76,20 +133,19 @@
   content: '\f00c';
 }
 .parsley-errors-list {
-  position: absolute;
-  top: 8px;
-  right: 8px;
+  font-size: 13px;
   color: #fb4f18;
 }
 .form .btn-cont {
   width: 100%;
-  background-color: #006fc3;
-  display: inline-block;
+  background-color: #0069ca;
+  display: table;
 }
 .form .btn {
   cursor: pointer;
   width: 50%;
   height: 50px;
+  line-height: 50px;
   color: #fff;
   font-size: 21px;
   display: inline-block;
@@ -112,7 +168,7 @@
 .steps li {
   float: left;
   padding: 10px 30px;
-  background: #006fc3;
+  background: #0069ca;
   color: #fff;
   position: relative;
   font-size: 15px;
@@ -129,8 +185,8 @@
   z-index: 20;
 }
 .steps li.active {
-  background: #2283dd;
+  background: #0078e7;
 }
 .steps-cont {
-  background: #2283dd;
+  background: #0078e7;
 }

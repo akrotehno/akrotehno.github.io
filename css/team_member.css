@@ -2,7 +2,7 @@
   overflow: hidden;
 }
 #intro_gallery {
-  background: #d1e6f6;
+  background: #ecf0f3;
   padding: 10px;
   margin-bottom: 15px;
 }
@@ -13,12 +13,12 @@
   line-height: 20px;
 }
 .lSAction > a {
-  background-color: #d1e6f6;
-  color: #2283dd;
+  background-color: #ecf0f3;
+  color: #0078e7;
 }
 .lSSlideOuter {
   padding: 10px;
-  background-color: #d1e6f6;
+  background-color: #ecf0f3;
   display: inline-block;
   max-width: 100%;
   margin: 10px 0px !important;
@@ -28,7 +28,7 @@
   background-color: #202325;
 }
 .lSSlideOuter .lSPager.lSpg > li.active a {
-  background-color: #2283dd;
+  background-color: #0078e7;
 }
 #team-profile {
   padding: 10px;
@@ -66,7 +66,7 @@
 .no-line {
   width: 30px;
   margin: 0px auto;
-  border-bottom: 1px solid #eef5fb;
+  border-bottom: 1px solid #f7f9fb;
 }
 .half-line {
   line-height: 25px;

@@ -1,5 +1,5 @@
 .heading {
-  color: #2283dd;
+  color: #0078e7;
   font-size: 29px;
   line-height: 40px;
   margin-bottom: 10px;
@@ -15,7 +15,7 @@
 }
 .sub-heading {
   font-size: 19px;
-  color: #2283dd;
+  color: #0078e7;
   margin: 10px 0px;
 }
 #intro-text {
@@ -25,13 +25,13 @@
 #summary-cont {
   width: 100%;
   box-sizing: border-box;
-  background: #2283dd;
+  background: #0078e7;
   padding: 10px;
 }
 #summary {
   max-width: 1000px;
   margin: 0 auto;
-  background-color: #d1e6f6;
+  background-color: #ecf0f3;
 }
 #cover_image {
   background-size: cover;
@@ -41,31 +41,31 @@
 #next_title {
   font-weight: bold;
   font-size: 20px;
-  color: #2283dd;
+  color: #0078e7;
 }
 #next_details {
   font-size: 17px;
   line-height: 26px;
 }
 .text-button {
-  outline: 1px solid #2283dd;
+  outline: 1px solid #0078e7;
   padding: 4px;
-  color: #006fc3;
+  color: #0069ca;
 }
 .pcp {
   position: relative;
   display: inline-block;
-  background: #2283dd;
+  background: #0078e7;
   padding: 10px;
-  color: #eef5fb;
+  color: #f7f9fb;
 }
 .pcp .button {
   position: absolute;
   right: 0px;
   bottom: 0px;
   margin: 10px;
-  color: #006fc3;
-  background: #eef5fb;
+  color: #0069ca;
+  background: #f7f9fb;
 }
 .pcp-title {
   font-size: 17px;

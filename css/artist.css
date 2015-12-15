@@ -1,12 +1,13 @@
 .article-section .txt {
   white-space: pre-line;
   font-size: 16px;
+  line-height: 23px;
 }
 .article-section h1 {
   margin: 10px 0px;
   font-size: 30px;
-  color: #2283dd;
+  color: #0078e7;
 }
 .article-section.a h1 {
-  color: #eef5fb;
+  color: #f7f9fb;
 }

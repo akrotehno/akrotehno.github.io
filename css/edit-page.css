@@ -1,0 +1,13 @@
+textarea {
+  width: 100%;
+  height: inherit;
+  white-space: inherit;
+  color: inherit;
+  border: solid 1px #959697;
+  display: inline-block;
+  padding: 5px;
+  margin: 0px;
+  background-color: transparent;
+  resize: none;
+  overflow: hidden;
+}

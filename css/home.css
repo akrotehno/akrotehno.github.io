@@ -1,25 +1,78 @@
+img.team-pic {
+  float: left;
+  border-radius: 8px;
+  width: 75px;
+  height: 75px;
+}
+.team-footer {
+  margin-top: 5px;
+}
+.team-row {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.team-cnt p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.team-details {
+  margin-left: 84px;
+}
+.team-name {
+  font-size: 20px;
+}
+.team-descr {
+  font-size: 14px;
+}
+.team-position {
+  color: #f7f9fb;
+  margin-top: 5px;
+  font-size: 14px;
+}
 #headlines {
   font-size: 19px;
-  color: #eef5fb;
+  color: #f7f9fb;
   text-align: center;
+  margin-top: 10px;
+  background-color: #0078e7;
+}
+.intro-title {
+  font-size: 20px;
+  color: #0078e7;
   margin-bottom: 10px;
-  background-color: #2283dd;
+  font-weight: bold;
+}
+.intro-text {
+  line-height: 20px;
+  font-size: 14px;
+  color: #0069ca;
 }
 .royalSlider {
   opacity: 0;
 }
+.banner-text,
+.banner_bottom {
+  text-shadow: 0px 0px 3px #000;
+}
+.banner-text {
+  text-align: justify;
+  font-size: 17px;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: normal;
+  line-height: 25px;
+}
 .banner_parent {
   padding: 10px;
-  background: #2283dd;
+  background: #0078e7;
 }
 .banner_list .link_list {
-  background-color: #eef5fb;
+  background-color: #f7f9fb;
   padding: 6px;
   display: table;
-}
-.banner_list {
-  right: 5px;
-  bottom: 0px;
+  margin: 10px;
+  right: 0px;
   position: absolute;
 }
 .banner_list .banner_link {
@@ -34,23 +87,18 @@
   width: 70px;
   height: 70px;
 }
-.banner_content {
-  color: #eef5fb;
-  width: inherit;
+.banner_bottom {
   position: absolute;
-  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  line-height: 21px;
 }
-.banner_details {
+.banner_content {
+  color: #f7f9fb;
   width: inherit;
-  position: relative;
-  margin: 20px auto;
-  word-break: break-word;
-  width: 80%;
-  text-align: -webkit-center;
-  line-height: 33px;
-  font-weight: 600;
-  font-size: 23px;
-  padding: 7px;
+  text-align: center;
 }
 .banner_details h3 {
   font-size: 35px;
@@ -79,10 +127,10 @@
   padding: 15px 0px;
 }
 .banner_ctg span {
-  background: #eef5fb;
+  background: #f7f9fb;
   padding: 10px;
   font-size: 16px;
-  color: #2283dd;
+  color: #0078e7;
 }
 .banner_more {
   background-color: #fff;
@@ -92,7 +140,7 @@
 .banner_more .num {
   padding-top: 6px;
   font-size: 30px;
-  color: #2283dd;
+  color: #0078e7;
   line-height: 30px;
 }
 .banner_more .txt {
@@ -103,11 +151,6 @@
   position: relative;
   bottom: 3px;
   color: #e4ecf2;
-}
-.banner_cont {
-  margin: 0px auto 0px auto;
-  width: 100%;
-  max-width: 900px;
 }
 .banner_quote_by {
   font-size: 17px;
@@ -133,9 +176,11 @@
 }
 #headlines .headline {
   margin: 0px 5px;
-  padding: 5px;
+  padding: 5px 10px;
+  background-color: #f7f9fb;
+  color: #0078e7;
+  border-radius: 8px;
   display: inline-block;
-  outline: solid 1px #eef5fb;
 }
 .word-emphasize:before {
   font-family: FontAwesome;
@@ -145,7 +190,6 @@
   font-weight: normal;
 }
 .word-emphasize {
-  color: #015494;
   font-size: 19px;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -187,14 +231,14 @@
   display: inline-block;
 }
 .index-card {
-  color: #006fc3;
+  color: #0069ca;
   padding: 10px;
   margin: 5px;
   line-height: 18px;
   display: inline-block;
 }
 .index-card .icon {
-  color: #2283dd;
+  color: #0078e7;
   float: left;
   font-size: 50px;
   width: 50px;
@@ -227,47 +271,25 @@
   margin: 0 auto;
 }
 .seperate_row {
-  font-size: 37px;
+  font-size: 26px;
   font-weight: bold;
-  color: #2283dd;
+  color: #0078e7;
   margin-bottom: 10px;
-}
-#team .seperate_row.team-sub {
-  font-size: 27px;
-  margin-top: 10px;
 }
 .card-links {
   margin-top: 10px;
 }
-.team-pic {
-  float: left;
-}
-img.team-pic {
-  width: 120px;
-  height: 120px;
-}
-.team-row {
-  white-space: nowrap;
-  overflow-x: auto;
-}
-.team-cont {
-  display: inline-block;
-}
 .team-container {
+  display: inline-block;
+  margin-right: 5px;
   color: #fff;
-  display: table;
-  margin: 0 auto;
-  background: #2283dd;
+  border-radius: 7px;
+  background: #0078e7;
   padding: 10px;
+  width: 350px;
 }
-.team-details {
-  float: right;
-  margin-left: 10px;
-}
-.team-name {
-  font-size: 18px;
-}
-.team-position {
-  color: #eef5fb;
-  font-size: 13px;
+.team-sub {
+  font-size: 19px;
+  font-weight: normal;
+  color: #0069ca;
 }

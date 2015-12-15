@@ -1,13 +1,13 @@
 #summary-cont {
   width: 100%;
   box-sizing: border-box;
-  background: #2283dd;
+  background: #0078e7;
   padding: 10px;
 }
 #intro {
   font-size: 19px;
   line-height: 24px;
-  color: #006fc3;
+  color: #0069ca;
 }
 #more-info .icon,
 #positions .ctg .icon {
@@ -19,7 +19,8 @@
   margin-bottom: 5px;
 }
 #contact .card {
-  background: #2283dd;
+  background: #0078e7;
+  border-radius: 10px;
   max-width: 310px;
   text-align: center;
   line-height: 23px;
@@ -32,7 +33,7 @@
 }
 #space .title {
   font-size: 30px;
-  color: #2283dd;
+  color: #0078e7;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -40,6 +41,7 @@
   float: none;
   padding: 16px;
   font-size: 17px;
+  border-radius: 6px;
 }
 #positions .card {
   max-width: 400px;
@@ -47,7 +49,9 @@
 #summary {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #d1e6f6;
+  background-color: #ecf0f3;
+  border-radius: 11px;
+  overflow: hidden;
 }
 #intro-s p {
   margin-bottom: 10px;
@@ -60,11 +64,12 @@
 .row-title {
   font-weight: bold;
   font-size: 30px;
-  color: #2283dd;
+  color: #0078e7;
   margin-bottom: 10px;
 }
 .btn {
-  background: #2283dd;
+  border-radius: 6px;
+  background: #0078e7;
   padding: 10px;
   display: inline-block;
   float: right;
@@ -80,21 +85,19 @@
 .card .sub-title {
   font-size: 18px;
 }
-.icon {
-  font-size: 25px;
-}
 .age {
   font-size: 14px;
 }
 .card {
   max-width: 360px;
   margin: 0 auto;
-  color: #eef5fb;
+  color: #f7f9fb;
   padding: 10px;
 }
 .card .inner {
-  background: #2283dd;
+  background: #0078e7;
   padding: 10px;
+  border-radius: 10px;
 }
 .card .title {
   margin-bottom: 5px;

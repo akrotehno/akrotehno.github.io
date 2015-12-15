@@ -1,6 +1,5 @@
 $(document).ready(function() {
-  $('.form .btn').on('click', function() {
-
+  $('.form .btn').on('click', function(e) {
     var jThis = $(this);
     var form = jThis.closest('.form');
     var current = jThis.data('currentBlock'),
@@ -8,32 +7,43 @@ $(document).ready(function() {
 
     // only validate going forward. If current group is invalid, do not go further
     // .parsley().validate() returns validation result AND show errors
-    var res = form.parsley().validate('block' + current);
+    var pForm = form.parsley();
+    var res = pForm.validate('block' + current);
 
-    if(!next){
-      // MUST BE THE FINAL SUBMISSION
+    if (!res) {
       return;
     }
 
-    if (next > current) {
-      if (false === res) {
+    // MUST BE THE FINAL SUBMISSION
+    if (!next) {
+
+      var modal = jThis.attr('data-modal');
+      if (modal) {
+        var inst = $('[data-remodal-id='+modal+']').remodal({
+          body:"#remodal-container"
+        });
+        inst.open();
         return;
       }
+
+
+      form.submit();
+      return;
     }
 
     // validation was ok. We can go on next step.
-    $('.form .block' + current)
+    form.find('.block' + current)
       .removeClass('show')
       .addClass('hidden');
 
-    $('.form .block' + next)
+    form.find('.block' + next)
       .removeClass('hidden')
       .addClass('show');
 
-    $('.steps .block' + current)
+    form.find('.steps .block' + current)
       .removeClass('active');
 
-    $('.steps .block' + next)
+    form.find('.steps .block' + next)
       .addClass('active');
 
   });

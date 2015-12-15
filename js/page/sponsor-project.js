@@ -1,6 +1,23 @@
 (function($) {
 
   //////////////////////////////////////////
+  // STPES
+
+  var type_options = $("#types .option");
+  var ratings = $("#ratings");
+
+  type_options.click(function(){
+    ratings.removeClass('hidden');
+  });
+
+  var rating_options = $("#ratings .option");
+  var details = $("#details");
+
+  rating_options.click(function(){
+    details.removeClass('hidden');
+  });
+
+  //////////////////////////////////////////
   // SPONSORSHIP SELECTION
 
   var options = $('.options');

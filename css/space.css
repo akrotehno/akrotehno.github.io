@@ -10,7 +10,7 @@
   font-size: 37px;
   font-weight: bold;
   margin: 18px 0px;
-  color: #2283dd;
+  color: #0078e7;
 }
 #intro .title:first-child {
   margin-top: 0px;
@@ -41,15 +41,16 @@
 }
 #cards .card {
   line-height: 20px;
-  background-color: #2283dd;
+  background-color: #0078e7;
   display: inline-block;
   padding: 10px;
   width: 80%;
   max-width: 300px;
   color: #fff;
+  border-radius: 10px;
 }
 #directions .title {
-  color: #2283dd;
+  color: #0078e7;
   font-weight: bold;
   font-size: 28px;
   margin: 8px 0;
@@ -58,7 +59,7 @@
   padding: 0 10px;
 }
 #directions .subtitle {
-  color: #2283dd;
+  color: #0078e7;
   font-weight: bold;
   font-size: 17px;
   margin: 5px 0;

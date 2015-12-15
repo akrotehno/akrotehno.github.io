@@ -1,10 +1,52 @@
+#legal-menu {
+  overflow-x: auto;
+}
+#legal-menu .menu_title {
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: bold;
+  color: #0078e7;
+}
+#legal-menu .count {
+  font-weight: bold;
+  width: 20px;
+  margin-right: 4px;
+  text-align: right;
+  display: inline-block;
+}
+#legal-menu ul {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+}
+#legal-menu li {
+  text-align: left;
+  padding: 8px 0px;
+  white-space: nowrap;
+}
+#legal-menu li a {
+  color: #0078e7;
+}
+.table {
+  display: table;
+  margin: 0 auto;
+}
 .title {
-  color: #2283dd;
+  color: #0078e7;
   font-size: 30px;
 }
 .field {
-  padding: 10px;
-  color: #fff;
+  color: #0069ca;
   margin: 10px 0px;
-  background: #2283dd;
+  line-height: 22px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.section-inner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }

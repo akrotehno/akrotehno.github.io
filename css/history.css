@@ -1,0 +1,52 @@
+.slider_cont {
+  margin: 10px 0px;
+  background: #0078e7;
+  border-radius: 5px;
+}
+.list-item {
+  line-height: 20px;
+}
+.space-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #0078e7;
+  margin-bottom: 10px;
+}
+.section-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.intro-btns {
+  text-align: center;
+  margin-top: 10px;
+}
+.intro-btn {
+  padding: 10px;
+  border: solid 1px #fff;
+  margin: 5px;
+  font-size: 16px;
+  color: #fff;
+  display: inline-block;
+}
+.act-title {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #0078e7;
+}
+.box {
+  margin-bottom: 10px;
+}
+#economics .box {
+  display: inline-block;
+  margin-top: 10px;
+}
+#next_steps {
+  color: #f7f9fb;
+}
+#next_steps .space-title {
+  color: #fff;
+}
+.box-title {
+  font-size: 21px;
+  margin-bottom: 10px;
+}

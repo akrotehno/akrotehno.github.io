@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 .crd {
-  background: #2283dd;
+  background: #0078e7;
   padding: 10px;
   height: 120px;
   position: relative;
@@ -23,7 +23,7 @@
 }
 .crd .det-cont {
   margin-left: 220px;
-  color: #eef5fb;
+  color: #f7f9fb;
   overflow-y: auto;
   height: 100%;
   position: relative;
@@ -38,7 +38,7 @@
   height: 100px;
   padding: 10px;
   float: left;
-  background-color: #eef5fb;
+  background-color: #f7f9fb;
 }
 .crd .pic {
   width: 100%;
@@ -68,11 +68,11 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 10px;
-  color: #2283dd;
+  color: #0078e7;
 }
 .large {
   font-size: 36px;
-  color: #006fc3;
+  color: #0069ca;
 }
 @media only screen and (max-width: 950px) {
   .crd-cont {

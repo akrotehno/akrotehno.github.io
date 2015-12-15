@@ -1,0 +1,13 @@
+.main-body-content {
+  text-align: center;
+}
+#error-title {
+  font-size: 32px;
+  color: #0078e7;
+  margin-top: 18px;
+  margin-bottom: 9px;
+}
+#error-info {
+  font-size: 15px;
+  color: #202325;
+}

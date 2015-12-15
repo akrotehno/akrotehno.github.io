@@ -14,7 +14,7 @@
 }
 .article-section .title {
   font-size: 30px;
-  color: #2283dd;
+  color: #0078e7;
   font-weight: bold;
 }
 .prj-links {
@@ -23,7 +23,7 @@
   right: 0px;
 }
 .prj-btn {
-  background: #eef5fb;
+  background: #f7f9fb;
   color: #015494;
   padding: 5px;
   margin-left: 10px;
@@ -45,7 +45,7 @@ img.prj-pic {
 .prj-container {
   width: 350px;
   color: #fff;
-  background: #2283dd;
+  background: #0078e7;
   padding: 10px;
   display: inline-block;
 }

@@ -1,5 +1,5 @@
 #books #intro {
-  background-color: #2283dd;
+  background-color: #0078e7;
   color: #fff;
   font-size: 22px;
   text-align: center;
@@ -10,7 +10,7 @@
   font-size: 27px;
   margin-bottom: 7px;
   font-weight: bold;
-  color: #006fc3;
+  color: #0069ca;
 }
 #books .section-text {
   line-height: 19px;
@@ -35,10 +35,10 @@
   margin-left: 60px;
 }
 #books #cards {
-  background-color: #d1e6f6;
+  background-color: #ecf0f3;
 }
 #books .card_cont {
-  color: #eef5fb;
+  color: #f7f9fb;
   line-height: 18px;
   position: relative;
   display: inline-block;
@@ -48,7 +48,7 @@
   padding: 10px;
 }
 #books .card {
-  background-color: #2283dd;
+  background-color: #0078e7;
   margin: 0 auto;
   padding: 10px;
   position: relative;
@@ -60,7 +60,7 @@
   display: block;
 }
 #books .btn {
-  color: #2283dd;
+  color: #0078e7;
   background-color: #fff;
   padding: 9px;
   display: inline-block;

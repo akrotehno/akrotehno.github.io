@@ -1,4 +1,4 @@
-window.ParsleyValidator.addValidator('password',
+window.Parsley.addValidator('password',
   function(value, requirement) {
     if (value.length < 7) {
       // TOO SHORT
@@ -22,9 +22,8 @@ window.ParsleyValidator.addValidator('password',
     return true;
   }, 32);
 
-window.ParsleyValidator.addValidator('recaptcha',
+window.Parsley.addValidator('recaptcha',
   function(value, requirement) {
     var res = grecaptcha.getResponse();
-    console.log(res);
     return res?true:false;
   }, 32);

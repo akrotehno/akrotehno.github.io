@@ -34,16 +34,16 @@
   display: table;
 }
 #team-member {
-  background-color: #d1e6f6;
+  background-color: #ecf0f3;
 }
 #team-member-inner {
   max-width: 850px;
   margin: 0 auto;
-  background-color: #eef5fb;
+  background-color: #f7f9fb;
 }
 #team-name {
   font-size: 24px;
-  color: #006fc3;
+  color: #0069ca;
   font-weight: bold;
 }
 .vertical-timeline-container {
@@ -85,7 +85,7 @@
 .vertical-timeline-container .post .inner {
   position: relative;
   padding: 11px;
-  background-color: #006fc3;
+  background-color: #0069ca;
   min-height: 37px;
   word-wrap: break-word;
 }
@@ -174,11 +174,11 @@
   background-color: #fafafa;
 }
 .vertical-timeline-container .post .symbol {
-  color: #eef5fb;
+  color: #f7f9fb;
   left: -62px;
   font-size: 12px;
   text-align: center;
-  background-color: #006fc3;
+  background-color: #0069ca;
   position: absolute;
   top: 0px;
   display: block;
