@@ -1,18 +1,1 @@
-#welcoming {
-  text-align: center;
-}
-#welcoming p {
-  margin-bottom: 10px;
-}
-#welcoming .intro {
-  font-size: 18px;
-  color: #0078e7;
-  font-weight: bold;
-}
-#welcoming .btn {
-  padding: 10px;
-  background-color: #0078e7;
-  display: inline-block;
-  margin-bottom: 10px;
-  border-radius: 5px;
-}
+#welcoming .btn,#welcoming p{margin-bottom:10px}#welcoming{text-align:center}#welcoming .intro{font-size:18px;color:#0078e7;font-weight:700}#welcoming .btn{padding:10px;background-color:#0078e7;display:inline-block;border-radius:5px}

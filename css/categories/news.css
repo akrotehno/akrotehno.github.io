@@ -1,13 +1,1 @@
-.news-pic {
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-}
-.news-name {
-  font-size: 18px;
-  line-height: 30px;
-}
-.news-position {
-  color: #f7f9fb;
-  font-size: 13px;
-}
+.news-pic{width:100%;height:200px;background-size:cover}.news-name{font-size:18px;line-height:30px}.news-position{color:#f7f9fb;font-size:13px}
